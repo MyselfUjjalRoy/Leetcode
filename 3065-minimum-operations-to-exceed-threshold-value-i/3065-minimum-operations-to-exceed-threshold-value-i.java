@@ -6,6 +6,10 @@ class Solution {
        for(int i=0;i<n;i++){
         if(nums[i]<k){
             count++;
+            
+        }
+        else{
+            break;
         }
        } 
        return count;
