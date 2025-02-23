@@ -11,7 +11,7 @@ class Solution {
 
         list.sort(Collections.reverseOrder());
 
-        int maxSum = 0;
+        long maxSum = 0;
         for (int i = 0; i < k; i++) {
             maxSum += list.get(i);
         }
