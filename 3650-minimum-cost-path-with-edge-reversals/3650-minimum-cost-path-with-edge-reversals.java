@@ -33,6 +33,8 @@ class Solution {// used dijkstra's algo
 
             if(node == n - 1) return d;
 
+            if(adj.get(node) == null) continue;
+
             for(Pair nei : adj.get(node)){
                 int nextNode = nei.node;
                 int weight = nei.distance;
