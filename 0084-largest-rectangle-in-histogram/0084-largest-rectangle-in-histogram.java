@@ -1,8 +1,8 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
         int n = heights.length;
-        int maxArea = 0;
         Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
         for(int i = 0; i < n; i++){
             while(!stack.isEmpty() && heights[stack.peek()] > heights[i]){
                 int element = stack.pop();
