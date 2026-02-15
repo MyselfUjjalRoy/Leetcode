@@ -8,7 +8,7 @@ class Solution {
         for(int num : nums) total += num;
         while(j < n){
             sum += nums[j];
-            while(i <= j && sum > total - x){
+            while(i < j && sum > total - x){
                 sum -= nums[i];
                 i++;
             }
