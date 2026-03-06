@@ -10,6 +10,7 @@ Leetcode solutions
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -18,9 +19,19 @@ Leetcode solutions
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 <!---LeetCode Topics End-->
