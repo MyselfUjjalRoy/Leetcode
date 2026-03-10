@@ -27,6 +27,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
+| [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
@@ -42,6 +43,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
+| [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -55,6 +57,7 @@ Leetcode solutions
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
@@ -78,6 +81,7 @@ Leetcode solutions
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
 <!---LeetCode Topics End-->
