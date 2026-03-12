@@ -1,13 +1,18 @@
+/*
+solution -> CodestoryWithMik
+approach 2 -> just removing the space for isFlipped by adding a marker at the original array, 2 means isFlipped = true
+
+*/
 class Solution {
     public int minKBitFlips(int[] nums, int k) {
         int n = nums.length;
         int flipCountFromPastForCurr_Idx = 0;
-        boolean[] isFlipped = new boolean[n];
+       // boolean[] isFlipped = new boolean[n];
 
         int flips = 0;
 
         for(int i = 0; i < n; i++){
-            if(i >= k && isFlipped[i - k] == true){
+            if(i >= k && nums[i - k] == 2){
                 flipCountFromPastForCurr_Idx--;
             }
 
@@ -17,7 +22,7 @@ class Solution {
                 }
 
                 flipCountFromPastForCurr_Idx++;
-                isFlipped[i] = true;
+                nums[i] = 2;
                 flips++;
             }
         }
