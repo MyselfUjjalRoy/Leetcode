@@ -1,17 +1,20 @@
 class Solution {
+    //Approach - 2
+    int count = 0;
+    String result = "";
     public String getHappyString(int n, int k) {
         StringBuilder curr = new StringBuilder();
-        ArrayList<String> list = new ArrayList<>();
+        
+        solve(n , k , curr);  
 
-        solve(n , curr , list);
-
-        if(list.size() < k) return "";
-
-        return list.get(k - 1);
+        return result;      
     }
-    public void solve(int n , StringBuilder curr , ArrayList<String> list){
+    public void solve(int n , int k , StringBuilder curr){
         if(curr.length() == n){
-            list.add(curr.toString());
+            count++;
+            if(count == k){
+                result = curr.toString();
+            }
             return;
         }
 
@@ -22,9 +25,11 @@ class Solution {
 
             curr.append(ch);
 
-            solve(n, curr , list);
+            solve(n , k , curr);
 
             curr.deleteCharAt(curr.length() - 1);
+
+            if(count >= k) return; // no further recursion
         }
     }
 }
