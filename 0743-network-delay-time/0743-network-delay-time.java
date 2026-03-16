@@ -28,7 +28,7 @@ class Solution {
                 int wt = nei[1];
                 if(time + wt < dist[nextNode]){
                     dist[nextNode] = time + wt;
-                    pq.offer(new int[]{nextNode , time + 1});
+                    pq.offer(new int[]{nextNode , dist[nextNode]});
                 }
             }
         }
