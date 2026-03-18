@@ -22,6 +22,7 @@ Leetcode solutions
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Dynamic Programming
@@ -51,6 +52,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -61,6 +63,7 @@ Leetcode solutions
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
