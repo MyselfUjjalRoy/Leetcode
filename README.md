@@ -51,6 +51,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -75,6 +76,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -82,6 +84,7 @@ Leetcode solutions
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -95,6 +98,7 @@ Leetcode solutions
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+| [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |
