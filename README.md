@@ -103,6 +103,7 @@ Leetcode solutions
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
