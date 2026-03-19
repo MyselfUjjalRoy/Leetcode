@@ -1,36 +1,50 @@
 class Solution {
+    public int findParent(int[] parent , int node){
+        if(parent[node] == node) return node;
+        return parent[node] = findParent(parent , parent[node]);
+    }
+    public void unionByRank(int u , int v , int[] parent , int[] rank){
+        int pU = findParent(parent , u);
+        int pV = findParent(parent , v);
+
+        if(pU == pV) return;
+
+        if(rank[pU] < rank[pV]){
+            parent[pU] = pV;
+        }
+        else if(rank[pV] < rank[pU]){
+            parent[pV] = pU;
+        }
+        else{
+            parent[pV] = pU;
+            rank[pU]++;
+        }
+    }
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
-        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
-
-        for(int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        int[] parent = new int[n];
+        int[] rank = new int[n];
+        
+        for(int i = 0; i < n; i++){
+            parent[i] = i;
+            rank[i] = 0;
+        }
 
         for(int i = 0; i < n; i++){
-            for(int j = 0 ; j < n; j++){
-                if(isConnected[i][j] == 1 && i != j){
-                    adj.get(i).add(j);
-                    adj.get(j).add(i);
+            for(int j = i + 1; j < n; j++){ // starting from i + 1 to avoid repetitive work
+                if(isConnected[i][j] == 1){
+                    unionByRank(i , j , parent , rank);
                 }
             }
         }
-        boolean[] visited = new boolean[n];
+        
+        int provinces = 0;
 
-        int components = 0;
         for(int i = 0; i < n; i++){
-            if(!visited[i]){
-                dfs(i , adj , visited);
-                components++;
+            if(parent[i] == i){
+                provinces++;
             }
         }
-        return components;
-    }
-    public void dfs(int node , ArrayList<ArrayList<Integer>> adj , boolean[] visited){
-        visited[node] = true;
-
-        for(int nbr : adj.get(node)){
-            if(!visited[nbr]){
-                dfs(nbr , adj , visited);
-            }
-        }
+        return provinces;
     }
 }
