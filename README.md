@@ -45,6 +45,7 @@ Leetcode solutions
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
+| [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -73,6 +74,7 @@ Leetcode solutions
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
+| [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -89,6 +91,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
+| [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -99,6 +102,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
+| [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0743-network-delay-time](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0743-network-delay-time/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
