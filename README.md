@@ -92,6 +92,7 @@ Leetcode solutions
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
@@ -107,6 +108,7 @@ Leetcode solutions
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -123,6 +125,7 @@ Leetcode solutions
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
@@ -143,6 +146,7 @@ Leetcode solutions
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
+| [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
