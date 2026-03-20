@@ -19,6 +19,7 @@ Leetcode solutions
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
+| [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -55,6 +56,7 @@ Leetcode solutions
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
@@ -67,6 +69,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
+| [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -87,6 +90,7 @@ Leetcode solutions
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
@@ -102,6 +106,7 @@ Leetcode solutions
 | [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
+| [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
