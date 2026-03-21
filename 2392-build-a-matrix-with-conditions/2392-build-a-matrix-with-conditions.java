@@ -1,7 +1,7 @@
 class Solution {
     public int[][] buildMatrix(int k, int[][] rowConditions, int[][] colConditions) {
         ArrayList<Integer> rowOrder = topoSort(rowConditions , k);
-        ArrayList<Integer> colOrder = topoSort(colConditions , k);
+        ArryList<Integer> colOrder = topoSort(colConditions , k);
 
         if(rowOrder.isEmpty() || colOrder.isEmpty()){
             return new int[][]{};
