@@ -1,20 +1,17 @@
 class Solution {
     public int climbStairs(int n) {
-        int dp[] = new int[46]; // as the size was 45
-        Arrays.fill(dp , -1);
+        if(n <= 2) return n;
 
-        return solve(n , dp);
-    }
-    public int solve(int n , int[] dp){
-        if(n < 0) return 0;
+        int dp[] = new int[46];
 
-        if(dp[n] != -1) return dp[n];
+        dp[0] = 0;
+        dp[1] = 1;
+        dp[2] = 2;
 
-        if(n == 0) return 1;
-
-        int oneStep = solve(n - 1 , dp);
-        int twoStep = solve(n - 2 , dp);
-
-        return dp[n] = oneStep + twoStep;
+        for(int i = 3; i <= n; i++){
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        
+        return dp[n];
     }
 }
