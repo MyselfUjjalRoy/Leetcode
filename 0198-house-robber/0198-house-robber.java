@@ -3,21 +3,15 @@ class Solution {
         int n = nums.length;
 
         int[] dp = new int[n + 1];
-        Arrays.fill(dp , -1);
+        dp[0] = 0;
 
-        return solve(0 , n - 1 , nums , dp);
-    }
+        for(int i = 1; i <= n; i++){
+            int steal = nums[i - 1] + (i >= 2 ? dp[i - 2] : 0);
+            int skip = dp[i - 1];
 
-    public int solve(int i , int n , int[] nums , int[] dp){
-        if(i > n){
-            return 0;
+            dp[i] = Math.max(steal , skip);
         }
 
-        if(dp[i] != -1) return dp[i];
-
-        int steal = nums[i] + solve(i + 2 , n , nums , dp);
-        int skip = solve(i + 1 , n , nums , dp);
-
-        return dp[i] = Math.max(steal , skip);
+        return dp[n];
     }
 }
