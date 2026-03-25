@@ -1,33 +1,37 @@
 class Solution {
+    // constant space
+
     public int rob(int[] nums) {
         int n = nums.length;
-
         if(n == 1) return nums[0];
 
-        if(n == 2) return Math.max(nums[0] , nums[1]);
+        int prevKaPrev = 0;
+        int prev = 0;
 
-        int[] dp = new int[n + 1];
-        Arrays.fill(dp , -1);
-        
-        int take_0th_house = solve(0 , n - 2 , nums , dp);
+        for(int i = 1; i <= n - 1; i++){
+            int steal = nums[i - 1] + prevKaPrev;
+            int skip = prev;
 
-        Arrays.fill(dp , -1);
-
-        int take_1st_house = solve(1 , n - 1 , nums , dp);
-
-        return Math.max(take_0th_house , take_1st_house);
-    }
-
-    public int solve(int i , int n , int[] nums , int[] dp){
-        if(i > n){
-            return 0;
+            int temp = Math.max(steal , skip);
+            prevKaPrev = prev;
+            prev = temp;
         }
 
-        if(dp[i] != -1) return dp[i];
+        int result1 = prev;
 
-        int steal = nums[i] + solve(i + 2 , n ,  nums , dp);
-        int skip = solve(i + 1 , n , nums , dp);
+        prevKaPrev = 0;
+        prev = 0;
+        for(int i = 2; i <= n; i++){
+            int steal = nums[i - 1] + prevKaPrev;
+            int skip = prev;
 
-        return dp[i] = Math.max(steal , skip);
+            int temp = Math.max(steal , skip);
+            prevKaPrev = prev;
+            prev = temp;
+        }
+
+        int result2 = prev;
+
+        return Math.max(result1 , result2);
     }
 }
