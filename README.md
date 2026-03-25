@@ -36,6 +36,7 @@ Leetcode solutions
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
@@ -83,6 +84,7 @@ Leetcode solutions
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 ## Matrix
@@ -99,6 +101,7 @@ Leetcode solutions
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
@@ -167,6 +170,7 @@ Leetcode solutions
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -248,6 +252,7 @@ Leetcode solutions
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -279,6 +284,7 @@ Leetcode solutions
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+| [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
