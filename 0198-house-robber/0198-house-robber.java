@@ -1,17 +1,20 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
+        if(n == 1) return nums[0];
 
-        int[] dp = new int[n + 1];
-        dp[0] = 0;
+        int prev_ka_prev= 0;
+        int prev = nums[0];
 
-        for(int i = 1; i <= n; i++){
-            int steal = nums[i - 1] + (i >= 2 ? dp[i - 2] : 0);
-            int skip = dp[i - 1];
+        for(int i = 2; i <= n; i++){
+            int steal = nums[i - 1] + prev_ka_prev;
+            int skip = prev;
 
-            dp[i] = Math.max(steal , skip);
+            int temp = Math.max(steal , skip);
+            prev_ka_prev = prev;
+            prev = temp;
         }
 
-        return dp[n];
+        return prev;
     }
 }
