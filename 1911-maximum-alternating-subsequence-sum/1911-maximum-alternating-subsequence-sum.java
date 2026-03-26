@@ -1,38 +1,19 @@
 class Solution {
-    // CodestoryWithMik
-
-    int n;
-    long[][] t = new long[100001][2];
-
+    // codestory with mik
     public long maxAlternatingSum(int[] nums) {
-        n = nums.length;
-        for(int i = 0; i < n; i++){
-            Arrays.fill(t[i] , -1);
-        }
+        int n = nums.length;
+        long[][] t = new long[n][2];
+        //t[i][0] -> length even (then -nums[i]), t[i][1] -> length odd(then +nums[i])
 
-        return solve(0 , nums , true); // flag true -> '+' , false -> '-'
-    }
+        t[0][0] = Math.max(-nums[0] , 0);
+        t[0][1] = Math.max(nums[0] , 0);
 
-    public long solve(int idx , int[] nums , boolean flag){
-        if(idx >= n){
-            return 0;
-        }
+        for(int i = 1; i < n; i++){
+            // agar add kar ke length even ho toh (i - 1) tak odd ka max - nums[i]
+            t[i][0] = Math.max(t[i - 1][1] - nums[i] , t[i - 1][0]);
+            t[i][1] = Math.max(t[i - 1][0] + nums[i] , t[i - 1][1]);
+        } 
 
-        int f = flag ? 1 : 0;
-
-        if(t[idx][f] != -1){
-            return t[idx][f];
-        }
-
-        long skip = solve(idx + 1 , nums , flag); // when skipping the flag will be same
-
-        long val = nums[idx];
-        if(!flag){
-            val = -val;
-        }
-
-        long take = solve(idx + 1 , nums , !flag) + val; // here falg will be altered
-
-        return t[idx][f] = Math.max(skip , take);
+        return Math.max(t[n - 1][0] , t[n - 1][1]);       
     }
 }
