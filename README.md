@@ -16,6 +16,7 @@ Leetcode solutions
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -42,6 +43,7 @@ Leetcode solutions
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
+| [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
@@ -66,6 +68,7 @@ Leetcode solutions
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 ## Breadth-First Search
@@ -113,6 +116,7 @@ Leetcode solutions
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
+| [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
@@ -164,6 +168,7 @@ Leetcode solutions
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
@@ -256,6 +261,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3600-maximize-spanning-tree-stability-with-upgrades/) | Hard |
 ## Minimum Spanning Tree
