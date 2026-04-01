@@ -205,6 +205,7 @@ Leetcode solutions
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
+| [1615-maximal-network-rank](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1615-maximal-network-rank/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
