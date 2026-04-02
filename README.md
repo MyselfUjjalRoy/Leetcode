@@ -6,6 +6,7 @@ Leetcode solutions
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
@@ -66,6 +67,7 @@ Leetcode solutions
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0070-climbing-stairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0198-house-robber](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0198-house-robber/) | Medium |
@@ -354,6 +356,7 @@ Leetcode solutions
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
