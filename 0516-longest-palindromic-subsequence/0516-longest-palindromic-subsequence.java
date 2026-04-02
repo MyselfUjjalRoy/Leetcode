@@ -1,31 +1,28 @@
 class Solution {
-    int[][] t;
-    public int solve(int i , int j , String s){
-        if(i > j){
-            return 0;
-        }
-
-        if(t[i][j] != -1){
-            return t[i][j];
-        }
-
-        if(i == j){
-            return 1;
-        }
-        else if(s.charAt(i) == s.charAt(j)){
-            return t[i][j] = 2 + solve(i + 1 , j - 1 , s);
-        }
-        else{
-            return t[i][j] = Math.max(solve(i + 1 , j , s) , solve(i , j - 1 , s));
-        }
-    }
+    // solving using khandani template
     public int longestPalindromeSubseq(String s) {
         int n = s.length();
-        t = new int[n + 1][n + 1];
-        for(int i = 0; i < n + 1; i++){
-            Arrays.fill(t[i] , -1);
+        
+        int[][] t = new int[n][n];
+        // t[i][j] = LPS in s[i ...j]
+
+        for(int i = 0; i < n; i++){
+            t[i][i] = 1; // 1 length is always pallindrome
         }
 
-        return solve(0 , n - 1 , s);
+        for(int length = 2; length <= n; length++){
+            for(int i = 0; i + length - 1 < n; i++){
+                int j = i + length - 1;
+
+                if(s.charAt(i) == s.charAt(j)){
+                    t[i][j] = 2 + t[i + 1][j - 1];
+                }
+                else{
+                    t[i][j] = Math.max(t[i + 1][j] , t[i][j - 1]);
+                }
+            }
+        }
+
+        return t[0][n - 1]; // LPS of the whole string s[0... n - 1]
     }
 }
