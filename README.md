@@ -18,6 +18,7 @@ Leetcode solutions
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1061-lexicographically-smallest-equivalent-string/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
@@ -83,6 +84,7 @@ Leetcode solutions
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
