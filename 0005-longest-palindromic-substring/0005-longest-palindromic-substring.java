@@ -12,7 +12,7 @@ class Solution {
         if(s.charAt(i) == s.charAt(j)){
             return t[i][j] = check(i + 1 , j - 1 , s);
         }
-        return 0;
+        return t[i][j] = 0;
     }
     public String longestPalindrome(String s) {
         int n = s.length();
