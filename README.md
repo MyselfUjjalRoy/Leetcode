@@ -31,6 +31,7 @@ Leetcode solutions
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0198-house-robber](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
@@ -72,6 +73,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0062-unique-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0062-unique-paths/) | Medium |
+| [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
@@ -130,6 +132,7 @@ Leetcode solutions
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
