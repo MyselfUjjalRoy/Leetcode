@@ -68,6 +68,7 @@ Leetcode solutions
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
+| [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -106,6 +107,7 @@ Leetcode solutions
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
+| [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
@@ -160,6 +162,7 @@ Leetcode solutions
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
