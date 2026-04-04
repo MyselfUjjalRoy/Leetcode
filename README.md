@@ -137,6 +137,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -196,6 +197,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
@@ -215,6 +217,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1061-lexicographically-smallest-equivalent-string/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
@@ -238,6 +241,7 @@ Leetcode solutions
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1557-minimum-number-of-vertices-to-reach-all-nodes/) | Medium |
 | [1615-maximal-network-rank](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1615-maximal-network-rank/) | Medium |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
@@ -384,11 +388,13 @@ Leetcode solutions
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
