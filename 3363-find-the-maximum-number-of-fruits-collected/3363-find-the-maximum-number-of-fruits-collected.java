@@ -1,84 +1,48 @@
 class Solution {
-    int[][] t;
-    int n;
-    public int child1Collect(int[][] grid){
-        int score = 0;
+    public int maxCollectedFruits(int[][] fruits) {
+        int n = fruits.length;
+        int[][] t = new int[n][n];
+
+        int child1 = 0;
         for(int i = 0; i < n; i++){
-            score += grid[i][i];
-            grid[i][i] = 0;
-           // t[i][i] = 0;
+            child1 += fruits[i][i];
         }
 
-        return score;
-    }
+        // Before child2 and child3 , nullify the cells which can't be visited by child2 and child3
 
-    public int child2Collect(int i , int j , int[][] grid){
-        if(i >= n || j < 0 || j >= n){
-            return 0;
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                if(i < j && i + j < n - 1){
+                    t[i][j] = 0; // where child2 can't go
+                }
+                else if(i > j && i + j < n - 1){
+                    t[i][j] = 0; // where child3 can't go
+                }
+                else{
+                    t[i][j] = fruits[i][j];
+                }
+            }
         }
 
-        if(i == n - 1 && j == n - 1){
-            return 0; // already collected by child 1
+        // child2 collect fruits now.......
+        // it can collect only cells upper to diagonal : i < j
+
+        for(int i = 1; i < n; i++){
+            for(int j = i + 1; j < n; j++){
+                t[i][j] += Math.max(t[i - 1][j - 1] , Math.max(t[i - 1][j] , (j + 1 < n) ? t[i - 1][j + 1] : 0));
+            }
         }
 
-        // can't go beyond diagonal or left to diagonal (as we have only n - 1 moves)
-        if(i == j || i > j){
-            return 0;
-        }
-        
-        if(t[i][j] != -1){
-            return t[i][j];
-        }
+        // child3 collect fruits now.......
+        // it can collect only cells lower to diagonal : i > j
 
-        int leftCorner = grid[i][j] + child2Collect(i + 1 , j - 1 , grid);
-        int middle = grid[i][j] + child2Collect(i + 1 , j , grid);
-        int rightCorner = grid[i][j] + child2Collect(i + 1 , j + 1 , grid);
-
-        return t[i][j] = Math.max(leftCorner , Math.max(middle , rightCorner));
-
-    }
-
-    public int child3Collect(int i , int j , int[][] grid){
-        if(i < 0 || i >= n || j >= n){
-            return 0;
+        for(int j = 1; j < n; j++){
+            for(int i = j + 1; i < n; i++){
+                t[i][j] += Math.max(t[i - 1][j - 1] , Math.max(t[i][j - 1] , (i + 1 < n) ? t[i + 1][j - 1] : 0));
+            }
         }
 
-        if(i == n - 1 && j == n - 1){
-            return 0;
-        }
 
-        // can't go beyond diagonal or right to diagonal(as we have only n - 1 moves)
-        if(i == j || j > i){
-            return 0;
-        }
-
-        if(t[i][j] != -1){
-            return t[i][j];
-        }
-
-        int topCorner = grid[i][j] + child3Collect(i - 1 , j + 1 , grid);
-        int right = grid[i][j] + child3Collect(i , j + 1 , grid);
-        int rightCorner = grid[i][j] + child3Collect(i + 1 , j + 1 , grid);
-
-        return t[i][j] = Math.max(topCorner , Math.max(right , rightCorner));
-    }
-    public int maxCollectedFruits(int[][] grid) {
-        n = grid.length;
-        t = new int[n][n];
-
-        for(int[] row : t){
-            Arrays.fill(row , -1);
-        }
-
-        // first child
-        int firstChildScore = child1Collect(grid);
-
-        // second child
-        int secondChildScore = child2Collect(0 , n - 1 , grid);
-
-        // third child
-        int thirdChildScore = child3Collect(n - 1 , 0 , grid);
-
-        return firstChildScore + secondChildScore + thirdChildScore;
+        return child1 + t[n - 2][n - 1] + t[n - 1][n - 2];
     }
 }
