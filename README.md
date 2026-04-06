@@ -25,6 +25,7 @@ Leetcode solutions
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
+| [1416-restore-the-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1416-restore-the-array/) | Hard |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -115,6 +116,7 @@ Leetcode solutions
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
+| [1416-restore-the-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1416-restore-the-array/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
