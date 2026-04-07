@@ -375,6 +375,7 @@ Leetcode solutions
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0007-reverse-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0007-reverse-integer/) | Medium |
 | [0062-unique-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
