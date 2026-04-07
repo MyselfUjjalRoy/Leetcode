@@ -1,37 +1,41 @@
 class Solution {
-    // constant space
+    // ekbaar practice kar lete haiiii , revise ho jayega
+    /*
+    at first i will start robbing the houses from 0 to n - 2 because the houses are circular so i can't rob the last house 
+    then secondly i will again start robbing houses from 1 to n - 1 
+    - and between these two whatever maximum value i get , i will return that value
 
+    - this is the same question as house robber , so i will just use the function and call two times
+      and return the answer , that't it you are good to go
+
+    */
+    int[] dp;
     public int rob(int[] nums) {
         int n = nums.length;
-        if(n == 1) return nums[0];
 
-        int prevKaPrev = 0;
-        int prev = 0;
+        dp = new int[n];
+        Arrays.fill(dp , -1);
 
-        for(int i = 1; i <= n - 1; i++){
-            int steal = nums[i - 1] + prevKaPrev;
-            int skip = prev;
+        int startFrom_0 = solve(0 , n - 2 , nums);
+        Arrays.fill(dp , - 1);
 
-            int temp = Math.max(steal , skip);
-            prevKaPrev = prev;
-            prev = temp;
+        int startFrom_1 = solve(1 , n - 1 , nums);
+
+        return Math.max(startFrom_0 , startFrom_1);
+    }
+
+    public int solve(int i , int n , int[] nums){
+        if(i > n){
+            return 0;
         }
 
-        int result1 = prev;
-
-        prevKaPrev = 0;
-        prev = 0;
-        for(int i = 2; i <= n; i++){
-            int steal = nums[i - 1] + prevKaPrev;
-            int skip = prev;
-
-            int temp = Math.max(steal , skip);
-            prevKaPrev = prev;
-            prev = temp;
+        if(dp[i] != -1){
+            return dp[i];
         }
 
-        int result2 = prev;
+        int take = nums[i] + solve(i + 2 , n , nums);
+        int skip = solve(i + 1 , n , nums);
 
-        return Math.max(result1 , result2);
+        return dp[i] = Math.max(take , skip);
     }
 }
