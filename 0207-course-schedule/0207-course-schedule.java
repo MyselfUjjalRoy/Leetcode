@@ -1,23 +1,20 @@
 class Solution {
-    public boolean canFinish(int n, int[][] pre) {
+    public boolean canFinish(int n, int[][] p) {
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for(int i = 0; i < n; i++){
             adj.add(new ArrayList<>());
         }
-
-        for(int[] p : pre){
-            adj.get(p[1]).add(p[0]);
-        }
-
+        
         int[] indegree = new int[n];
-        for(int i = 0; i < n; i++){
-            for(int v : adj.get(i)){
-                indegree[v]++;
-            }
+
+        for(int[] e : p){
+            adj.get(e[1]).add(e[0]);
+            indegree[e[0]]++;
         }
 
-        Queue<Integer> queue = new LinkedList<>();
-        for(int i = 0; i < n; i++){
+        Queue<Integer>queue = new LinkedList<>();
+
+        for(int i = 0;i < n ; i++){
             if(indegree[i] == 0){
                 queue.offer(i);
             }
@@ -26,13 +23,13 @@ class Solution {
         int count = 0;
 
         while(!queue.isEmpty()){
-            int u = queue.poll();
+            int node = queue.poll();
             count++;
-            
-            for(int v : adj.get(u)){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    queue.offer(v);
+
+            for(int nei : adj.get(node)){
+                indegree[nei]--;
+                if(indegree[nei] == 0){
+                    queue.offer(nei);
                 }
             }
         }
