@@ -1,58 +1,51 @@
-//Approach-1 (Using Recursion + Memoization)
-//T.C : O(row*col*col * 9) -> 9 is from the double for loop for colDir
+//Approach-2 (Bottom Up - 3D Array)
+//T.C : O(row*col*col * 9)
 //S.C : O(row * col * col)
 class Solution {
-    int[][][] t;
-    int m;
-    int n;
-    int[] colDir = {-1 , 0 , 1};
+    public int cherryPickup(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
 
-    boolean isSafe(int col){
-        return col >= 0 && col < n;
-    }
+        int[][][] t = new int[71][71][71];
 
-    public int solve(int[][] grid , int row , int col1 , int col2){
-        if(row >= m){
-            return 0;
-        }
+         // t[row][c1][c2] = max cherries that can be collected till (row, c1) by robot1 and (row, c2) by robot2
+        // return max in last row
 
-        if(t[row][col1][col2] != -1){
-            return t[row][col1][col2];
-        }
+        // For first row (robot 1 is in 0 th column) and robot 2 is int (n - 1) th column
 
-        int count = grid[row][col1];
-        if(col1 != col2){ // as we can take a cell only once
-            count += grid[row][col2];
-        }
-        
-        int ans = Integer.MIN_VALUE;
+        t[0][0][n - 1] = (n == 1) ? grid[0][0] : grid[0][0] + grid[0][n - 1];
 
-        for(int x : colDir){
-            for(int y : colDir){
-                int newCol1 = col1 + x;
-                int newCol2 = col2 + y;
+        for(int row = 1; row < m; row++){
+            for(int col1 = 0; col1 <= Math.min(n - 1 , row); col1++){ // min is taken because if there is only 1 column
+                for(int col2 = Math.max(0 , n - 1 - row); col2 < n; col2++){
+                    int prevMax = 0;
 
-                if(isSafe(newCol1) && isSafe(newCol2)){
-                     ans = Math.max(ans , solve(grid , row + 1 , newCol1 , newCol2));
+                    // A robot can come to the current column from either column - 1 , column or column + 1 of the prev row (row - 1)
+
+                    for(int c1 = Math.max(0 , col1 - 1); c1 <= Math.min(n - 1 , col1 + 1); c1++){
+                        for(int c2 = Math.max(0 , col2 - 1); c2 <= Math.min(n - 1 , col2 + 1); c2++){
+                            prevMax = Math.max(prevMax , t[row - 1][c1][c2]);
+                        }
+                    }
+
+                    if(col1 == col2){
+                        t[row][col1][col2] = prevMax + grid[row][col1];
+                    }
+                    else{
+                        t[row][col1][col2] = prevMax + grid[row][col1] + grid[row][col2];
+                    }
                 }
             }
         }
 
-        return t[row][col1][col2] = count + ans;
-    }
-
-    public int cherryPickup(int[][] grid) {
-        m = grid.length;
-        n = grid[0].length;
-
-        t = new int[71][71][71];
-
-        for (int i = 0; i < 71; i++) {
-            for (int j = 0; j < 71; j++) {
-                Arrays.fill(t[i][j], -1);
+        int ans = 0;
+        // return max in the last row
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                ans = Math.max(ans , t[m - 1][i][j]);
             }
         }
 
-        return solve(grid, 0, 0, n - 1);
+        return ans;
     }
 }
