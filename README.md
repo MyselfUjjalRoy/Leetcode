@@ -64,6 +64,7 @@ Leetcode solutions
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
+| [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
@@ -125,6 +126,7 @@ Leetcode solutions
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1416-restore-the-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1416-restore-the-array/) | Hard |
+| [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
@@ -180,6 +182,7 @@ Leetcode solutions
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0827-making-a-large-island/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
+| [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
