@@ -13,7 +13,7 @@ class Solution {
     }
 
     public void dfs(int[][] image , int r , int c , int newColor , int orgColor){
-        if(r < 0 || c < 0 || r >= m || c >= m || image[r][c] != orgColor){
+        if(r < 0 || c < 0 || r >= m || c >= n || image[r][c] != orgColor){
             return;
         }
 
