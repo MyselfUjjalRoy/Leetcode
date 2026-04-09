@@ -1,18 +1,21 @@
 class Solution {
-    public int findParent(int[] parent , int node){
-        if(parent[node] == node) return node;
-        return parent[node] = findParent(parent , parent[node]);
+    int[] parent;
+    int[] rank;
+    int find(int x){
+        if(parent[x] == x) return x;
+        return parent[x] = find(parent[x]);
     }
-    public void unionByRank(int u , int v , int[] parent , int[] rank){
-        int pU = findParent(parent , u);
-        int pV = findParent(parent , v);
+
+    public void union(int u , int v){
+        int pU = find(u);
+        int pV = find(v);
 
         if(pU == pV) return;
 
         if(rank[pU] < rank[pV]){
             parent[pU] = pV;
         }
-        else if(rank[pV] < rank[pU]){
+        else if(rank[pU] > rank[pV]){
             parent[pV] = pU;
         }
         else{
@@ -20,31 +23,33 @@ class Solution {
             rank[pU]++;
         }
     }
+
     public int findCircleNum(int[][] isConnected) {
         int n = isConnected.length;
-        int[] parent = new int[n];
-        int[] rank = new int[n];
         
-        for(int i = 0; i < n; i++){
-            parent[i] = i;
-            rank[i] = 0;
-        }
+        parent = new int[n];
+        rank = new int[n];
 
         for(int i = 0; i < n; i++){
-            for(int j = i + 1; j < n; j++){ // starting from i + 1 to avoid repetitive work
+            parent[i] = i;
+        }
+
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+
+        for(int i = 0; i < n; i++){
+            for(int j = i + 1; j < n; j++){
                 if(isConnected[i][j] == 1){
-                    unionByRank(i , j , parent , rank);
+                    union(i , j);
                 }
             }
         }
-        
+
         int provinces = 0;
 
         for(int i = 0; i < n; i++){
-            if(parent[i] == i){
-                provinces++;
-            }
+            if(parent[i] == i) provinces++;
         }
+
         return provinces;
     }
 }
