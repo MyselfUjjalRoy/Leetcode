@@ -46,6 +46,7 @@ Leetcode solutions
 | [0198-house-robber](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0403-frog-jump](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0403-frog-jump/) | Hard |
@@ -401,11 +402,13 @@ Leetcode solutions
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 ## Sorting
@@ -480,6 +483,7 @@ Leetcode solutions
 ## Binary Indexed Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 ## String Matching
 | Problem Name | Difficulty |
@@ -496,6 +500,7 @@ Leetcode solutions
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 <!---LeetCode Topics End-->
