@@ -7,7 +7,7 @@ class Solution {
         int[] indegree = new int[n];
 
         for(int[] p : pre){
-            adj.get(p[1]).add(p[0])
+            adj.get(p[1]).add(p[0]);
             indegree[p[0]]++;
         }
 
