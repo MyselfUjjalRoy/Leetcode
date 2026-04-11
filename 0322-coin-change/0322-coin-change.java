@@ -19,6 +19,8 @@ class Solution {
             else return (int)1e9;
         }
 
+        if(dp[idx][target] != -1) return dp[idx][target];
+
         int notTake = 0 + solve(idx - 1 , target , coins);
         int take = (int)1e9;
         if(coins[idx] <= target){
