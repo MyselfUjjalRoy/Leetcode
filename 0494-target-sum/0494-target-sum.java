@@ -5,6 +5,8 @@ class Solution {
         for(int num : nums){
             total += num;
         }
+        
+        if((total - diff) % 2 != 0  || (total - diff) < 0) return 0;
 
         int target = (total - diff) / 2;
 
