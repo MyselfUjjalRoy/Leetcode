@@ -1,36 +1,44 @@
 class Solution {
     public int numEnclaves(int[][] grid) {
-        int n = grid.length;
-        int m = grid[0].length;
-        for(int i = 0; i < n; i++){
-            if(grid[i][0] == 1) dfs(n , m  , i , 0 , grid);
-            if(grid[i][m - 1] == 1) dfs(n , m , i , m - 1 , grid);
+        int m = grid.length;
+        int n = grid[0].length;
+
+       
+        for(int i = 0; i < m; i++){
+            if(grid[i][0] == 1) dfs(m , n , i , 0 , grid);
+            if(grid[i][n - 1] == 1) dfs(m , n , i , n - 1 , grid);
         }
-        for(int j = 0; j < m; j++){
-            if(grid[0][j] == 1) dfs(n , m , 0 , j , grid);
-            if(grid[n - 1][j] == 1) dfs(n , m , n - 1 , j , grid);
+
+        for(int j = 0; j < n; j++){
+            if(grid[0][j] == 1) dfs(m , n , 0 , j , grid );
+            if(grid[m - 1][j] == 1) dfs(m , n , m - 1 , j , grid);
         }
-        int lands = 0;
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
+
+        int count = 0;
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
                 if(grid[i][j] == 1){
-                    lands++;
+                    count++;
                 }
             }
         }
-        return lands;
-    }
-    public void dfs(int n , int m , int row , int col , int[][] board){
-        if(row < 0 || col < 0 || row >= n || col >= m || board[row][col] != 1) return;
-        
-        board[row][col] = 2;
-        int[] dx = {-1 , 0 , 1 , 0};
-        int[] dy = {0 , 1 , 0 , -1};
-        for(int i = 0; i < 4; i++){
-            int nRow = row + dx[i];
-            int nCol = col + dy[i];
 
-            dfs(n , m , nRow , nCol , board);
+        return count;
+    }
+    int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
+    public void dfs(int m , int n , int i , int j , int[][] grid){
+        if(i < 0 || j < 0 || i >= m || j >= n || grid[i][j] != 1){
+            return;
+        }
+
+        grid[i][j] = 2;
+
+        for(int d = 0; d < 4; d++){
+            int nI = i + dir[2 * d];
+            int nJ = j + dir[2 * d + 1];
+
+            dfs(m , n , nI , nJ , grid);
         }
     }
 }
