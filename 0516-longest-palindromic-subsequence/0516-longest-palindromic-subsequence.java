@@ -1,28 +1,26 @@
 class Solution {
-    // solving using khandani template
+    /*
+    using shortcut approach of lcs code
+    just reverse the original string 
+    then find lcs among original and reversed string
+    */
     public int longestPalindromeSubseq(String s) {
+        String rev = new StringBuilder(s).reverse().toString();
         int n = s.length();
-        
-        int[][] t = new int[n][n];
-        // t[i][j] = LPS in s[i ...j]
 
-        for(int i = 0; i < n; i++){
-            t[i][i] = 1; // 1 length is always pallindrome
-        }
+        int[][] dp = new int[n + 1][n + 1];
 
-        for(int length = 2; length <= n; length++){
-            for(int i = 0; i + length - 1 < n; i++){
-                int j = i + length - 1;
-
-                if(s.charAt(i) == s.charAt(j)){
-                    t[i][j] = 2 + t[i + 1][j - 1];
+        for(int i = 1; i < n + 1; i++){
+            for(int j = 1; j < n + 1; j++){
+                if(s.charAt(i - 1) == rev.charAt(j - 1)){
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
                 }
                 else{
-                    t[i][j] = Math.max(t[i + 1][j] , t[i][j - 1]);
+                    dp[i][j] = Math.max(dp[i - 1][j] , dp[i][j - 1]);
                 }
             }
         }
 
-        return t[0][n - 1]; // LPS of the whole string s[0... n - 1]
+        return dp[n][n];
     }
 }
