@@ -1,26 +1,35 @@
 class Solution {
-    /*
-    using shortcut approach of lcs code
-    just reverse the original string 
-    then find lcs among original and reversed string
-    */
-    public int longestPalindromeSubseq(String s) {
-        String rev = new StringBuilder(s).reverse().toString();
-        int n = s.length();
-
-        int[][] dp = new int[n + 1][n + 1];
-
-        for(int i = 1; i < n + 1; i++){
-            for(int j = 1; j < n + 1; j++){
-                if(s.charAt(i - 1) == rev.charAt(j - 1)){
-                    dp[i][j] = 1 + dp[i - 1][j - 1];
-                }
-                else{
-                    dp[i][j] = Math.max(dp[i - 1][j] , dp[i][j - 1]);
-                }
-            }
+    int[][] dp;
+    public int solve(int i , int j , String s){
+        if(i > j){
+            return 0;
         }
 
-        return dp[n][n];
+        if(dp[i][j] != -1){
+            return dp[i][j];
+        }
+
+        if(i == j){
+            return 1;
+        }
+        else if(s.charAt(i) == s.charAt(j)){
+            dp[i][j] = 2 + solve(i + 1 , j - 1 , s);
+        }
+        else{
+            dp[i][j] = Math.max(solve(i + 1 , j , s) , solve(i , j - 1 , s));
+        }
+
+        return dp[i][j];
+
+    }
+    public int longestPalindromeSubseq(String s) {
+        int n = s.length();
+        dp = new int[n][n];
+
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
+        }
+
+        return solve(0 , n - 1 , s);
     }
 }
