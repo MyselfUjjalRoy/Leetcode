@@ -79,6 +79,7 @@ Leetcode solutions
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1755-closest-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1755-closest-subsequence-sum/) | Hard |
+| [1848-minimum-distance-to-the-target-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
