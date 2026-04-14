@@ -7,6 +7,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0087-scramble-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0115-distinct-subsequences/) | Hard |
@@ -113,6 +114,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0062-unique-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0064-minimum-path-sum/) | Medium |
@@ -398,6 +400,7 @@ Leetcode solutions
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -552,4 +555,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 <!---LeetCode Topics End-->
