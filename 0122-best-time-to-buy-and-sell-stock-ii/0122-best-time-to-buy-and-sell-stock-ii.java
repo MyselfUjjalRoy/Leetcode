@@ -1,26 +1,27 @@
 class Solution {
+    /*
+    this solution uses 4 variable to make it optimized , though it is same as space optimized approach 
+    because it lot of leetcode solution forum , this method is used , so keep it in mind
+    the space complexity is same as using prev and curr array 
+    */
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int[] ahead = new int[2];
 
-        ahead[0] = ahead[1] = 0;
+        long aheadNotBuy, aheadBuy, currNotBuy, currBuy;
+
+        aheadNotBuy = aheadBuy = 0;
 
         for (int idx = n - 1; idx >= 0; idx--) {
-            int[] curr = new int[2];
-            for(int buy = 0; buy <= 1; buy++){
-                int profit = 0;
 
-                if (buy == 1) { // means i want to buy
-                    profit = Math.max(-prices[idx] + ahead[0], 0 + ahead[1]);
-                } else {
-                    profit = Math.max(prices[idx] + ahead[1], 0 + ahead[0]);
-                }
-                
-                curr[buy] = profit;
-            }
-            ahead = curr.clone();
+            currBuy = Math.max(-prices[idx] + aheadNotBuy, 0 + aheadBuy);
+
+            currNotBuy = Math.max(prices[idx] + aheadBuy, 0 + aheadNotBuy);
+
+            aheadBuy = currBuy;
+            aheadNotBuy = currNotBuy;
+
         }
 
-        return ahead[1];
+        return (int)aheadBuy;
     }
 }
