@@ -1,33 +1,24 @@
 class Solution {
-    int n;
-    int dp[][];
-    public int solve(int idx , int buy , int[] prices){
-        if(idx == n){
-            return 0;
-        }
-
-        if(dp[idx][buy] != -1){
-            return dp[idx][buy];
-        }
-
-        int profit = 0;
-
-        if(buy == 1){ // means i want to buy
-            profit = Math.max(-prices[idx] + solve(idx + 1 , 0 , prices) , 0 + solve(idx + 1 , 1 , prices));
-        }
-        else{
-            profit = Math.max(prices[idx] + solve(idx + 1 , 1 , prices) , 0 + solve(idx + 1 , 0 , prices));
-        }
-        return dp[idx][buy] = profit;
-    }
     public int maxProfit(int[] prices) {
-        n = prices.length;
+        int n = prices.length;
+        int[][] dp = new int[n + 1][2];
 
-        dp = new int[n][2];
-        for(int  i = 0; i < n; i++){
-            Arrays.fill(dp[i] , -1);
+        dp[n][0] = dp[n][1] = 0;
+
+        for (int idx = n - 1; idx >= 0; idx--) {
+            for(int buy = 0; buy <= 1; buy++){
+                int profit = 0;
+
+                if (buy == 1) { // means i want to buy
+                    profit = Math.max(-prices[idx] + dp[idx + 1][0], 0 + dp[idx + 1][1]);
+                } else {
+                    profit = Math.max(prices[idx] + dp[idx + 1][1], 0 + dp[idx + 1][0]);
+                }
+                
+                dp[idx][buy] = profit;
+            }
         }
 
-        return solve(0 , 1 , prices); // 1 -> i want to buy
+        return dp[0][1];
     }
 }
