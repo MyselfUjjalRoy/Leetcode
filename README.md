@@ -65,6 +65,7 @@ Leetcode solutions
 | [0494-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -153,6 +154,7 @@ Leetcode solutions
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0879-profitable-schemes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0879-profitable-schemes/) | Hard |
@@ -417,6 +419,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
