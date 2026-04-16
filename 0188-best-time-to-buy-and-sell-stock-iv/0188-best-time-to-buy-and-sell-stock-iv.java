@@ -7,12 +7,12 @@ class Solution {
             for(int buy = 0; buy <= 1; buy++){
                 for(int capacity = 1; capacity <= k; capacity++){
                     if(buy == 1){
-            dp[idx][buy][capacity] = Math.max(-prices[idx] + dp[idx + 1][0][k] , 
-            0 + dp[idx + 1][1][k]);
+            dp[idx][buy][capacity] = Math.max(-prices[idx] + dp[idx + 1][0][capacity] , 
+            0 + dp[idx + 1][1][capacity]);
         }
         else{
-            dp[idx][buy][capacity] = Math.max(prices[idx] + dp[idx + 1][1][k - 1] , 
-            0 + dp[idx + 1][0][k]);
+            dp[idx][buy][capacity] = Math.max(prices[idx] + dp[idx + 1][1][capacity - 1] , 
+            0 + dp[idx + 1][0][capacity]);
         } 
                 }
             }
