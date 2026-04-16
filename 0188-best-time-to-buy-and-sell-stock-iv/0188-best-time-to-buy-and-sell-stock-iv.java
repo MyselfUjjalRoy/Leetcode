@@ -1,33 +1,22 @@
 class Solution {
-    int n;
-    int[][][] dp;
-    public int solve(int idx , int buy , int k , int[] prices){
-        if(k == 0) return 0;
-        if(idx == n) return 0;
+    public int maxProfit(int k, int[] prices) {
+        int n = prices.length;
+        int[][][] dp = new int[n + 1][2][k + 1];
 
-        if(dp[idx][buy][k] != -1){
-            return dp[idx][buy][k];
-        }
-
-        if(buy == 1){
-            return dp[idx][buy][k] = Math.max(-prices[idx] + solve(idx + 1 , 0 , k , prices) , 
-            0 + solve(idx + 1 , 1 , k , prices));
+        for(int idx = n - 1; idx >= 0; idx--){
+            for(int buy = 0; buy <= 1; buy++){
+                for(int capacity = 1; capacity <= k; capacity++){
+                    if(buy == 1){
+            dp[idx][buy][capacity] = Math.max(-prices[idx] + dp[idx + 1][0][k] , 
+            0 + dp[idx + 1][1][k]);
         }
         else{
-            return dp[idx][buy][k] = Math.max(prices[idx] + solve(idx + 1 , 1 , k - 1 , prices) , 
-            0 + solve(idx + 1 , 0 , k , prices));
-        }
-    }
-    public int maxProfit(int k, int[] prices) {
-        n = prices.length;
-
-        dp = new int[n][2][k + 1];
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < 2; j++){
-                Arrays.fill(dp[i][j] , -1);
+            dp[idx][buy][capacity] = Math.max(prices[idx] + dp[idx + 1][1][k - 1] , 
+            0 + dp[idx + 1][0][k]);
+        } 
+                }
             }
         }
-
-        return solve(0 , 1 , k , prices);
+        return dp[0][1][k];
     }
 }
