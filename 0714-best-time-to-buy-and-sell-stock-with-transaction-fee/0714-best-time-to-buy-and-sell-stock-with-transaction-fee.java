@@ -1,30 +1,20 @@
 class Solution {
-    int n;
-    int[][] dp;
-    public int solve(int idx , int buy , int fee , int[] prices){
-        if(idx == n){
-            return 0;
-        }
-
-        if(dp[idx][buy] != -1){
-            return dp[idx][buy];
-        }
-
-        if(buy == 1){
-            return dp[idx][buy] = Math.max(-prices[idx] + solve(idx + 1 , 0 , fee , prices) , solve(idx + 1 , 1 , fee , prices));
-        }
-        else{
-            return dp[idx][buy] = Math.max(prices[idx] - fee + solve(idx + 1 , 1 , fee , prices) , solve(idx + 1 , 0 , fee , prices));
-        }
-    }
     public int maxProfit(int[] prices, int fee) {
-        n = prices.length;
-        dp = new int[n][2];
+        int n = prices.length;
+        int[][] dp = new int[n + 1][2];
 
-        for(int i = 0; i < n; i++){
-            Arrays.fill(dp[i] , -1);
+        for (int idx = n - 1; idx >= 0; idx--) {
+            for (int buy = 0; buy <= 1; buy++) {
+                if (buy == 1) {
+                    dp[idx][buy] = Math.max(-prices[idx] + dp[idx + 1][0],
+                            dp[idx + 1][1]);
+                } else {
+                    dp[idx][buy] = Math.max(prices[idx] - fee + dp[idx + 1][1],
+                            dp[idx + 1][0]);
+                }
+            }
         }
 
-        return solve(0 , 1 , fee , prices);
+        return dp[0][1];
     }
 }
