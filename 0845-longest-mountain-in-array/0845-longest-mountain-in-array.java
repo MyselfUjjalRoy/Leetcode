@@ -15,7 +15,7 @@ class Solution {
                     left--;
                 }
 
-                while(right < n && arr[right] > arr[right + 1]){
+                while(right < n - 1 && arr[right] > arr[right + 1]){
                     right++;
                 }
 
