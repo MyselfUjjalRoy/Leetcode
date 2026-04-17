@@ -6,12 +6,12 @@ class Solution {
 
         int[] t = new int[n];
         Arrays.fill(t , 1);
-        
+
         int[] prevIdx = new int[n];
         Arrays.fill(prevIdx , -1);
 
         int maxLen = 1;
-        int lastIndex = -1;
+        int lastIndex = 0;
 
         for(int i = 0; i < n; i++){
             for(int j = 0; j < i; j++){
