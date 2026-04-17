@@ -99,6 +99,7 @@ Leetcode solutions
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -181,6 +182,7 @@ Leetcode solutions
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
@@ -223,6 +225,7 @@ Leetcode solutions
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 ## Matrix
@@ -246,6 +249,7 @@ Leetcode solutions
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
@@ -286,6 +290,7 @@ Leetcode solutions
 | [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
@@ -335,6 +340,7 @@ Leetcode solutions
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2359-find-closest-node-to-given-two-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2359-find-closest-node-to-given-two-nodes/) | Medium |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -393,6 +399,7 @@ Leetcode solutions
 | [0802-find-eventual-safe-states](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2360-longest-cycle-in-a-graph](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2360-longest-cycle-in-a-graph/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
 ## Bit Manipulation
@@ -543,6 +550,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0070-climbing-stairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
+| [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
