@@ -1,28 +1,29 @@
 class Solution {
+    /*
+     previously solved with 2 pass , now solved in 1 pass
+     and O(1) space , because in the question it was asked to do in that way
+    */
     public int longestMountain(int[] arr) {
         int n = arr.length;
-
-        if(n < 3) return 0;
-
-        int[] inc = new int[n];
-        for(int i = 1; i < n; i++){
-            if(arr[i] > arr[i - 1]){
-                inc[i] = inc[i - 1] + 1;
-            }
-        }
-
-        int[] dec = new int[n];
-        for(int i = n - 2; i >= 0; i--){
-            if(arr[i] > arr[i + 1]){
-                dec[i] = dec[i + 1] + 1;
-            }
-        }
-
+        int i = 1;
         int ans = 0;
 
-        for(int i = 0; i < n; i++){
-            if(inc[i] > 0 && dec[i] > 0){
-                ans = Math.max(ans , inc[i] + dec[i] + 1);
+        while(i < n - 1){
+            if(arr[i - 1] < arr[i] && arr[i] > arr[i + 1]){
+                int left = i - 1 , right = i + 1;
+                while(left > 0 && arr[left - 1] < arr[left]){
+                    left--;
+                }
+
+                while(right < n && arr[right] > arr[right + 1]){
+                    right++;
+                }
+
+                ans = Math.max(ans , right - left + 1);
+                i = right; // to skip the processed part
+            }
+            else{
+                i++;
             }
         }
 
