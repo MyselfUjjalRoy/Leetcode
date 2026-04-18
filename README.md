@@ -46,6 +46,7 @@ Leetcode solutions
 | [0026-remove-duplicates-from-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0064-minimum-path-sum/) | Medium |
+| [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 | [0120-triangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -136,6 +137,7 @@ Leetcode solutions
 | [0064-minimum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0064-minimum-path-sum/) | Medium |
 | [0070-climbing-stairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
+| [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 | [0087-scramble-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0120-triangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0120-triangle/) | Medium |
@@ -239,6 +241,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0064-minimum-path-sum/) | Medium |
+| [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0174-dungeon-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0174-dungeon-game/) | Hard |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
@@ -580,6 +583,7 @@ Leetcode solutions
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 | [2751-robot-collisions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2751-robot-collisions/) | Hard |
 ## Combinatorics
 | Problem Name | Difficulty |
@@ -604,4 +608,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 <!---LeetCode Topics End-->
