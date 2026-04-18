@@ -80,6 +80,7 @@ Leetcode solutions
 | [0994-rotting-oranges](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
+| [1043-partition-array-for-maximum-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1187-make-array-strictly-increasing](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1187-make-array-strictly-increasing/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -167,6 +168,7 @@ Leetcode solutions
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0845-longest-mountain-in-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0845-longest-mountain-in-array/) | Medium |
 | [0879-profitable-schemes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0879-profitable-schemes/) | Hard |
+| [1043-partition-array-for-maximum-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1143-longest-common-subsequence/) | Medium |
