@@ -1,4 +1,10 @@
 class Solution {
+    /*
+     just reused the function of largest rectange histogram
+     and then passed the heights array for each row of the matrix and calculate the
+     maximal rectangle
+     
+    */
     public int largestRectangleArea(int[] heights) {
         int n = heights.length;
         Stack<Integer> stack = new Stack<>();
