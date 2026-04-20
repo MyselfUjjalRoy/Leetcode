@@ -105,6 +105,7 @@ Leetcode solutions
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -440,6 +441,7 @@ Leetcode solutions
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -503,6 +505,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 | [3479-fruits-into-baskets-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3479-fruits-into-baskets-iii/) | Medium |
@@ -590,6 +593,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 ## String Matching
@@ -610,6 +614,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 ## Bitmask
@@ -621,6 +626,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [3479-fruits-into-baskets-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3479-fruits-into-baskets-iii/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
@@ -631,4 +637,8 @@ Leetcode solutions
 | ------- | ------- |
 | [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 <!---LeetCode Topics End-->
