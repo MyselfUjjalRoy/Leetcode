@@ -14,6 +14,7 @@ Leetcode solutions
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0132-palindrome-partitioning-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0132-palindrome-partitioning-ii/) | Hard |
+| [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0516-longest-palindromic-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
@@ -373,6 +374,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
+| [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -500,6 +502,7 @@ Leetcode solutions
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2069-walking-robot-simulation-ii/) | Medium |
@@ -646,4 +649,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
+## Trie
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 <!---LeetCode Topics End-->
