@@ -1,27 +1,30 @@
 class Solution {
-    /*
-    this solution uses 4 variable to make it optimized , though it is same as space optimized approach 
-    because it lot of leetcode solution forum , this method is used , so keep it in mind
-    the space complexity is same as using prev and curr array 
-    */
-    public int maxProfit(int[] prices) {
-        int n = prices.length;
-
-        long aheadNotBuy, aheadBuy, currNotBuy, currBuy;
-
-        aheadNotBuy = aheadBuy = 0;
-
-        for (int idx = n - 1; idx >= 0; idx--) {
-
-            currBuy = Math.max(-prices[idx] + aheadNotBuy, 0 + aheadBuy);
-
-            currNotBuy = Math.max(prices[idx] + aheadBuy, 0 + aheadNotBuy);
-
-            aheadBuy = currBuy;
-            aheadNotBuy = currNotBuy;
-
+    int n;
+    int[][] dp;
+    public int solve(int idx , int buy , int[] prices){
+        if(idx == n){
+            return 0;
         }
 
-        return (int)aheadBuy;
+        if(dp[idx][buy] != -1){
+            return dp[idx][buy];
+        }
+
+        if(buy == 1){
+            return dp[idx][buy] = Math.max(-prices[idx] + solve(idx + 1 , 0 , prices) , solve(idx + 1 , 1 , prices));
+        }
+        else{
+            return dp[idx][buy] = Math.max(prices[idx] + solve(idx + 1 , 1 , prices) , solve(idx + 1 , 0 , prices));
+        }
+    }
+    public int maxProfit(int[] prices) {
+        n = prices.length;
+
+        dp = new int[n][2];
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
+        }
+
+        return solve(0 , 1 , prices);
     }
 }
