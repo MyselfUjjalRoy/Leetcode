@@ -70,6 +70,7 @@ Leetcode solutions
 | [0416-partition-equal-subset-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0518-coin-change-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0518-coin-change-ii/) | Medium |
+| [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -387,6 +388,7 @@ Leetcode solutions
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
+| [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0815-bus-routes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0815-bus-routes/) | Hard |
 | [0839-similar-string-groups](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0839-similar-string-groups/) | Hard |
@@ -415,6 +417,7 @@ Leetcode solutions
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2615-sum-of-distances](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
