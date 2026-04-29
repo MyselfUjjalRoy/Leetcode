@@ -129,6 +129,7 @@ Leetcode solutions
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3225-maximum-score-from-grid-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
@@ -216,6 +217,7 @@ Leetcode solutions
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
+| [3225-maximum-score-from-grid-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
@@ -291,6 +293,7 @@ Leetcode solutions
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3225-maximum-score-from-grid-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
@@ -437,6 +440,7 @@ Leetcode solutions
 | [3129-find-all-possible-stable-binary-arrays-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3129-find-all-possible-stable-binary-arrays-i/) | Medium |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3212-count-submatrices-with-equal-frequency-of-x-and-y/) | Medium |
+| [3225-maximum-score-from-grid-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3546-equal-sum-grid-partition-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
