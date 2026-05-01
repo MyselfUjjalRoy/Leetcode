@@ -67,6 +67,7 @@ Leetcode solutions
 | [0322-coin-change](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0322-coin-change/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0396-rotate-function](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0403-frog-jump](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0403-frog-jump/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0494-target-sum/) | Medium |
@@ -178,6 +179,7 @@ Leetcode solutions
 | [0312-burst-balloons](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0312-burst-balloons/) | Hard |
 | [0322-coin-change](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0322-coin-change/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0396-rotate-function](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0403-frog-jump](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0403-frog-jump/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
 | [0494-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0494-target-sum/) | Medium |
@@ -528,6 +530,7 @@ Leetcode solutions
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0279-perfect-squares/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0396-rotate-function](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
