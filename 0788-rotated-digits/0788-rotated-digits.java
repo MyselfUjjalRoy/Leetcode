@@ -3,6 +3,8 @@ class Solution {
     public int solve(int num){
         
         if(num == 0) return t[num] = 0;
+        if(t[num] != -1) return t[num];
+        
         int remain = solve(num / 10);
         int digit = num % 10;
 
