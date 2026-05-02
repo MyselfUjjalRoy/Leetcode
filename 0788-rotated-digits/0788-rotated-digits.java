@@ -1,21 +1,26 @@
 class Solution {
-    public boolean isGood(int num){
-        boolean changed = false;
-        while(num > 0){
-            int d = num % 10;
+    public int solve(int num){
+        if(num == 0) return 0;
+        int remain = solve(num / 10);
+        int digit = num % 10;
 
-            if(d == 3 || d == 4 || d == 7) return false;
-            if(d == 2 || d == 5 || d == 6 || d == 9) changed = true;
+        int digit_check;   
+        if(digit == 0 || digit == 1 || digit == 8) digit_check = 0;
+        else if(digit == 2 || digit == 5 || digit == 6 || digit == 9) digit_check = 1;
+        else return 2;
 
-            num /= 10;
+        if(remain == 0 && digit_check == 0){
+            return 0;
         }
-
-        return changed;
+        else if(remain == 2 || digit_check == 2){
+            return 2;
+        }
+        else return 1; // means valid change found        
     }
     public int rotatedDigits(int n) {
         int count = 0;
         for(int i = 1; i <= n; i++){
-            if(isGood(i)){
+            if(solve(i) == 1){
                 count++;
             }
         }
