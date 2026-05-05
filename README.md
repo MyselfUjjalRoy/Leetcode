@@ -610,6 +610,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
+| [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0845-longest-mountain-in-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0845-longest-mountain-in-array/) | Medium |
@@ -711,4 +712,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 <!---LeetCode Topics End-->
