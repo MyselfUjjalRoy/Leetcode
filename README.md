@@ -146,6 +146,7 @@ Leetcode solutions
 | [3643-flip-square-submatrix-vertically](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
+| [3660-jump-game-ix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3660-jump-game-ix/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -227,6 +228,7 @@ Leetcode solutions
 | [3225-maximum-score-from-grid-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3363-find-the-maximum-number-of-fruits-collected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3363-find-the-maximum-number-of-fruits-collected/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
+| [3660-jump-game-ix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3660-jump-game-ix/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3742-maximum-path-score-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Breadth-First Search
