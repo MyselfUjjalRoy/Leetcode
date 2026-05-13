@@ -109,6 +109,7 @@ Leetcode solutions
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1755-closest-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1755-closest-subsequence-sum/) | Hard |
 | [1848-minimum-distance-to-the-target-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
+| [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -453,6 +454,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
+| [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2615-sum-of-distances](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
@@ -721,6 +723,7 @@ Leetcode solutions
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Geometry
 | Problem Name | Difficulty |
