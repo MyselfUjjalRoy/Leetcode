@@ -78,6 +78,7 @@ Leetcode solutions
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
+| [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0733-flood-fill](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0815-bus-routes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0815-bus-routes/) | Hard |
@@ -453,6 +454,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
+| [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -492,6 +494,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
+| [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1187-make-array-strictly-increasing](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1187-make-array-strictly-increasing/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -562,12 +565,14 @@ Leetcode solutions
 | ------- | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
+| [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
+| [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
@@ -699,6 +704,7 @@ Leetcode solutions
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [3479-fruits-into-baskets-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3479-fruits-into-baskets-iii/) | Medium |
