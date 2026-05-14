@@ -135,6 +135,7 @@ Leetcode solutions
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2615-sum-of-distances](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
 | [2751-robot-collisions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2751-robot-collisions/) | Hard |
+| [2784-check-if-array-is-good](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2906-construct-product-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
@@ -438,6 +439,7 @@ Leetcode solutions
 | [1943-describe-the-painting](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1943-describe-the-painting/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2615-sum-of-distances](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
+| [2784-check-if-array-is-good](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -613,6 +615,7 @@ Leetcode solutions
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2751-robot-collisions/) | Hard |
+| [2784-check-if-array-is-good](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
