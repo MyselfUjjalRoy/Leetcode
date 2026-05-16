@@ -9,44 +9,41 @@
  * }
  */
 class Solution {
-    public ListNode findMiddle(ListNode head){
-        if(head == null || head.next == null){
-            return head;
-        }
+    public boolean isPalindrome(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
+
         while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
         }
-        return slow;
-    }
-    public ListNode reverseList(ListNode head){
-        ListNode prev = null;
-        ListNode curr = head;
-        while(curr != null){
-            ListNode nextNode = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = nextNode;
-        }
-        return prev;
-    }
-    public boolean isPalindrome(ListNode head) {
-        if(head == null || head.next == null){
-            return true;
-        }
-        ListNode middle = findMiddle(head);
-        ListNode tail = reverseList(middle);
-        ListNode temp = head;
-        while(tail != null){
-            if(temp.val != tail.val){
+
+        ListNode secondHalf = reverse(slow);
+
+        ListNode firstHalfHead = head;
+        ListNode secondHalfHead = secondHalf;
+
+        while(secondHalfHead != null){
+            if(firstHalfHead.val != secondHalfHead.val){
                 return false;
             }
-            tail = tail.next;
-            temp = temp.next;
+            firstHalfHead = firstHalfHead.next;
+            secondHalfHead = secondHalfHead.next;
         }
-        return true;
 
+        return true;
+    }
+    public ListNode reverse(ListNode head){
+        ListNode prev = null;
+        ListNode curr = head;
+
+        while(curr != null){
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        return prev;
     }
 }
