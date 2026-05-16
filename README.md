@@ -603,6 +603,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0075-sort-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0075-sort-colors/) | Medium |
+| [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -655,6 +656,7 @@ Leetcode solutions
 | [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0845-longest-mountain-in-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0845-longest-mountain-in-array/) | Medium |
@@ -721,6 +723,7 @@ Leetcode solutions
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
@@ -753,6 +756,7 @@ Leetcode solutions
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 ## Trie
 | Problem Name | Difficulty |
@@ -774,6 +778,7 @@ Leetcode solutions
 | [0019-remove-nth-node-from-end-of-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
