@@ -737,6 +737,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
+| [0206-reverse-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -764,6 +765,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
+| [0206-reverse-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Number Theory
