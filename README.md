@@ -654,6 +654,7 @@ Leetcode solutions
 | [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0845-longest-mountain-in-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0845-longest-mountain-in-array/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
@@ -708,6 +709,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
+| [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [2751-robot-collisions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2751-robot-collisions/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 ## Combinatorics
@@ -740,6 +742,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0206-reverse-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -769,6 +772,7 @@ Leetcode solutions
 | [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0206-reverse-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
+| [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Number Theory
