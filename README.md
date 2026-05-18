@@ -93,6 +93,7 @@ Leetcode solutions
 | [0909-snakes-and-ladders](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0909-snakes-and-ladders/) | Medium |
 | [0994-rotting-oranges](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1043-partition-array-for-maximum-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
@@ -428,6 +429,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -478,6 +480,7 @@ Leetcode solutions
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1094-car-pooling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1094-car-pooling/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
@@ -524,6 +527,7 @@ Leetcode solutions
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1187-make-array-strictly-increasing](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1187-make-array-strictly-increasing/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
