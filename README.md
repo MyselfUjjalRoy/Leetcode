@@ -102,6 +102,7 @@ Leetcode solutions
 | [1277-count-square-submatrices-with-all-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1306-jump-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
+| [1345-jump-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
@@ -274,6 +275,7 @@ Leetcode solutions
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1306-jump-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
+| [1345-jump-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
@@ -443,6 +445,7 @@ Leetcode solutions
 | [0874-walking-robot-simulation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
+| [1345-jump-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1943-describe-the-painting](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1943-describe-the-painting/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
