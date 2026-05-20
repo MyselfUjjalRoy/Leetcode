@@ -1,25 +1,18 @@
-class Solution { // works only for non negative numbers
+class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
-        return sumLessThanEqualsToGoal(nums , goal) - sumLessThanEqualsToGoal(nums , goal - 1);
-    }
-    public int sumLessThanEqualsToGoal(int[] nums , int goal){
-        if(goal < 0) return 0;
-
         int n = nums.length;
-        int left = 0 , right = 0;
+
+        Map<Integer , Integer> map = new HashMap<>();
+        map.put(0 , 1);
+        
         int count = 0;
-        int sum = 0;
+        int prefixSum = 0;
 
-        while(right < n){
-            sum += nums[right];
-            
-            while(sum > goal){
-                sum -= nums[left];
-                left++;
-            }
+        for(int right = 0; right < n; right++){
+            prefixSum += nums[right];
+            count += map.getOrDefault(prefixSum - goal , 0);
 
-            count += right - left + 1;
-            right++;
+            map.put(prefixSum , map.getOrDefault(prefixSum , 0) + 1);
         }
 
         return count;
