@@ -1,28 +1,19 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        return atMost(nums , k) - atMost(nums , k - 1);
-    }
-
-    public int atMost(int[] nums , int k){
-        if(k < 0) return 0;
-
         int n = nums.length;
+        Map<Integer , Integer> map = new HashMap<>();
+        map.put(0 , 1);
+
+        int prefixSum = 0;
         int count = 0;
-        int left = 0 , right = 0;
-        int ans = 0;
 
-        while(right < n){
-            if(nums[right] % 2 == 1) count += 1;
+        for(int right = 0; right < n; right++){
+            prefixSum += (nums[right] % 2 == 1) ? 1 : 0;
 
-            while(count > k){
-                if(nums[left] % 2 == 1) count -= 1;
-                left++;
-            }
-
-            ans += right - left + 1;
-            right++;
+            count += map.getOrDefault(prefixSum - k , 0);
+            map.put(prefixSum , map.getOrDefault(prefixSum , 0) + 1);
         }
 
-        return ans;
+        return count;
     }
 }
