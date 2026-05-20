@@ -2,18 +2,20 @@ class Solution {
     public int numberOfSubstrings(String s) {
         int n = s.length();
 
-        int[] lastSeen = new int[3];
-        Arrays.fill(lastSeen , -1);
-        int count = 0;
+        int[] count = new int[3];
+       // Arrays.fill(lastSeen , -1);
+        int ans = 0;
+        int left = 0;
 
         for(int i = 0; i < n; i++){
-            lastSeen[s.charAt(i) - 'a'] = i;
-            if(lastSeen[0] != -1 && lastSeen[1] != -1 && lastSeen[2] != -1){
-                count += 1 + Math.min(lastSeen[0] , Math.min(lastSeen[1] , lastSeen[2]));
+            count[s.charAt(i) - 'a']++;
+            while(count[0] > 0 && count[1] > 0 && count[2] > 0){
+                ans += n - i;
+                count[s.charAt(left) - 'a']--;
+                left++;
             }
         }
 
-        return count;
-        
+        return ans;     
     }
 }
