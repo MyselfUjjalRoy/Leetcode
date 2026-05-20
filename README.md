@@ -111,6 +111,7 @@ Leetcode solutions
 | [1345-jump-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -439,6 +440,7 @@ Leetcode solutions
 | [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -498,6 +500,7 @@ Leetcode solutions
 | [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1094-car-pooling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1094-car-pooling/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
