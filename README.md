@@ -10,6 +10,7 @@ Leetcode solutions
 | [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
+| [0076-minimum-window-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0087-scramble-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0087-scramble-string/) | Hard |
 | [0115-distinct-subsequences](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
@@ -438,6 +439,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0076-minimum-window-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
@@ -451,6 +453,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0076-minimum-window-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0138-copy-list-with-random-pointer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
