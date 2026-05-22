@@ -3,22 +3,28 @@ class Solution {
         int n = heights.length;
         int maxWater = 0;
 
-        int[] leftMax = new int[n];
-        leftMax[0] = heights[0];
+        int leftMax = 0;
+        int rightMax = 0;
 
-        int[] rightMax = new int[n];
-        rightMax[n - 1] = heights[n - 1];
+        int left = 0;
+        int right = n - 1;
 
-        for(int i = 1; i < n; i++){
-            leftMax[i] = Math.max(heights[i] , leftMax[i - 1]);
-        }
+        while(left < right){
+            if(leftMax < heights[left]){
+                leftMax = heights[left];
+            }
+            if(rightMax < heights[right]){
+                rightMax = heights[right];
+            }
 
-        for(int i = n - 2; i >= 0; i--){
-            rightMax[i] = Math.max(heights[i] , rightMax[i + 1]);
-        }
-
-        for(int i = 0; i < n; i++){
-            maxWater += Math.max(Math.min(leftMax[i] , rightMax[i]) - heights[i] , 0);
+            if(leftMax < rightMax){
+                maxWater += Math.max(leftMax - heights[left] , 0);
+                left++;
+            }
+            else{
+                maxWater += Math.max(rightMax - heights[right] , 0);
+                right--;
+            }
         }
 
         return maxWater;
