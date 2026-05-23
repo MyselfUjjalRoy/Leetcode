@@ -3,21 +3,24 @@ class Solution {
         int n = heights.length;
         Stack<Integer> stack = new Stack<>();
         int maxArea = 0;
+
         for(int i = 0; i < n; i++){
             while(!stack.isEmpty() && heights[stack.peek()] > heights[i]){
-                int element = stack.pop();
+                int eleIdx = stack.pop();
                 int nse = i;
                 int pse = stack.isEmpty() ? -1 : stack.peek();
-                maxArea = Math.max(maxArea , (nse - pse - 1) * heights[element]);
+                maxArea = Math.max(maxArea , heights[eleIdx] * (nse - pse - 1));
             }
             stack.push(i);
         }
+
         while(!stack.isEmpty()){
-            int element = stack.pop();
+            int eleIdx = stack.pop();
             int nse = n;
             int pse = stack.isEmpty() ? -1 : stack.peek();
-            maxArea = Math.max(maxArea , (nse - pse - 1) * heights[element]);
+            maxArea = Math.max(maxArea , heights[eleIdx] * (nse - pse - 1));
         }
+
         return maxArea;
     }
 }
