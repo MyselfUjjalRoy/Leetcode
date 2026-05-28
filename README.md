@@ -77,6 +77,7 @@ Leetcode solutions
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0198-house-robber](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
+| [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
@@ -459,6 +460,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0076-minimum-window-substring/) | Hard |
+| [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
@@ -572,6 +574,7 @@ Leetcode solutions
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -620,6 +623,7 @@ Leetcode solutions
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0743-network-delay-time](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0743-network-delay-time/) | Medium |
@@ -895,4 +899,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
+## Monotonic Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
