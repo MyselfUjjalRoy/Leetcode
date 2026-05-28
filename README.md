@@ -665,6 +665,7 @@ Leetcode solutions
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
+| [0901-online-stock-span](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0901-online-stock-span/) | Medium |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 ## Segment Tree
@@ -807,6 +808,7 @@ Leetcode solutions
 | [0496-next-greater-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0735-asteroid-collision](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0735-asteroid-collision/) | Medium |
+| [0901-online-stock-span](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0901-online-stock-span/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 | [2751-robot-collisions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2751-robot-collisions/) | Hard |
@@ -854,6 +856,7 @@ Leetcode solutions
 | [0402-remove-k-digits](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0503-next-greater-element-ii/) | Medium |
+| [0901-online-stock-span](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0901-online-stock-span/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
@@ -903,4 +906,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0901-online-stock-span](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0901-online-stock-span/) | Medium |
 <!---LeetCode Topics End-->
