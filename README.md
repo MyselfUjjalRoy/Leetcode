@@ -479,6 +479,7 @@ Leetcode solutions
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0138-copy-list-with-random-pointer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
@@ -660,6 +661,7 @@ Leetcode solutions
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
@@ -890,6 +892,7 @@ Leetcode solutions
 | [0061-rotate-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0206-reverse-linked-list/) | Easy |
@@ -910,4 +913,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0901-online-stock-span](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0901-online-stock-span/) | Medium |
+## Doubly-Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
 <!---LeetCode Topics End-->
