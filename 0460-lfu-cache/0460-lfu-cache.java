@@ -7,9 +7,7 @@ class LFUCache {
             this.freq = 1;
         }
     }
-    int minFreq;
-    int capacity;
-    int size;
+    int minFreq , capacity , size;
     Map<Integer , Node> keyNode;
     Map<Integer , LinkedHashSet<Node>> freqMap;
 
@@ -25,6 +23,7 @@ class LFUCache {
         if(!keyNode.containsKey(key)){
             return -1;
         }
+
         Node node = keyNode.get(key);
         increaseFreq(node);
 
@@ -32,8 +31,6 @@ class LFUCache {
     }
     
     public void put(int key, int value) {
-       // if(capacity == 0) return;
-
         if(keyNode.containsKey(key)){
             Node node = keyNode.get(key);
             node.value = value;
@@ -42,34 +39,37 @@ class LFUCache {
         else{
             if(size == capacity){
                 LinkedHashSet<Node> nodes = freqMap.get(minFreq);
-                Node toRemove = nodes.iterator().next();
-                nodes.remove(toRemove);
+                Node toRemove = nodes.iterator().next(); // it will give me the least recently used key , when same freq
+                nodes.remove(toRemove); // it has a reference to the original LHS , it is not creating the copy so tha't why i don't need to explicitly need to remove it from the freqMap
 
                 if(nodes.isEmpty()){
                     freqMap.remove(minFreq);
                 }
+                
                 keyNode.remove(toRemove.key);
                 size--;
             }
+
             Node newNode = new Node(key , value);
             keyNode.put(key , newNode);
-            freqMap.computeIfAbsent(1 , k-> new LinkedHashSet<>()).add(newNode);
-           minFreq = 1;
-           size++; 
+            freqMap.computeIfAbsent(1 , k -> new LinkedHashSet<>()).add(newNode);
+            minFreq = 1;
+            size++;
         }
     }
     public void increaseFreq(Node node){
         int freq = node.freq;
         LinkedHashSet<Node> nodes = freqMap.get(freq);
         nodes.remove(node);
-        if(nodes.isEmpty()){
+        
+        if(nodes.size() == 0){
             freqMap.remove(freq);
             if(freq == minFreq){
                 minFreq++;
             }
         }
         node.freq++;
-        freqMap.computeIfAbsent(node.freq , k-> new LinkedHashSet<>()).add(node);
+        freqMap.computeIfAbsent(node.freq , k -> new LinkedHashSet<>()).add(node);
     }
 }
 
