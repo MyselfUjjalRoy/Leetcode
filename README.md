@@ -485,6 +485,7 @@ Leetcode solutions
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
+| [0460-lfu-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0496-next-greater-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
 | [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -665,6 +666,7 @@ Leetcode solutions
 | [0155-min-stack](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0155-min-stack/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
+| [0460-lfu-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
 | [0901-online-stock-span](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0901-online-stock-span/) | Medium |
@@ -899,6 +901,7 @@ Leetcode solutions
 | [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
 | [0328-odd-even-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0328-odd-even-linked-list/) | Medium |
+| [0460-lfu-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0460-lfu-cache/) | Hard |
 | [0876-middle-of-the-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Number Theory
@@ -917,4 +920,5 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
+| [0460-lfu-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0460-lfu-cache/) | Hard |
 <!---LeetCode Topics End-->
