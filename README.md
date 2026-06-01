@@ -296,6 +296,7 @@ Leetcode solutions
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0127-word-ladder](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
+| [0199-binary-tree-right-side-view](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0279-perfect-squares](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0279-perfect-squares/) | Medium |
@@ -390,6 +391,7 @@ Leetcode solutions
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0207-course-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
@@ -767,6 +769,7 @@ Leetcode solutions
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
@@ -785,6 +788,7 @@ Leetcode solutions
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
