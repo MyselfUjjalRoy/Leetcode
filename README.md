@@ -291,6 +291,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0101-symmetric-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
@@ -385,6 +386,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0100-same-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0101-symmetric-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -762,6 +764,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0100-same-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0101-symmetric-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
@@ -781,6 +784,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0100-same-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0101-symmetric-tree/) | Easy |
 | [0102-binary-tree-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
