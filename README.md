@@ -218,6 +218,7 @@ Leetcode solutions
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
+| [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0132-palindrome-partitioning-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0132-palindrome-partitioning-ii/) | Hard |
 | [0174-dungeon-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0174-dungeon-game/) | Hard |
@@ -376,6 +377,7 @@ Leetcode solutions
 | [0094-binary-tree-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
@@ -745,6 +747,7 @@ Leetcode solutions
 | [0102-binary-tree-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
@@ -759,6 +762,7 @@ Leetcode solutions
 | [0102-binary-tree-level-order-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0102-binary-tree-level-order-traversal/) | Medium |
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
+| [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
