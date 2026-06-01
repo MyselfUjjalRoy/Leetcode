@@ -317,6 +317,7 @@ Leetcode solutions
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0886-possible-bipartition](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0886-possible-bipartition/) | Medium |
 | [0909-snakes-and-ladders](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0909-snakes-and-ladders/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
@@ -409,6 +410,7 @@ Leetcode solutions
 | [0886-possible-bipartition](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0886-possible-bipartition/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1306-jump-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
@@ -519,6 +521,7 @@ Leetcode solutions
 | [0874-walking-robot-simulation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0992-subarrays-with-k-different-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -721,6 +724,7 @@ Leetcode solutions
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1094-car-pooling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1094-car-pooling/) | Medium |
 | [1187-make-array-strictly-increasing](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1187-make-array-strictly-increasing/) | Hard |
@@ -767,6 +771,7 @@ Leetcode solutions
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -783,6 +788,7 @@ Leetcode solutions
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
