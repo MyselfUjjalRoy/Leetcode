@@ -14,26 +14,18 @@
  * }
  */
 class Solution {
-    // Approach 2 : using Morris traversal
-    // TC : O(N) , SC : O(1)
+    // Approach 1 : using recursion
+    // TC : O(N) , SC : O(N)
+    TreeNode prev = null;
     public void flatten(TreeNode root) {
-        TreeNode curr = root;
+        if (root == null) return;
 
-        while(curr != null){
-            if(curr.left != null){
-                TreeNode prev = curr.left;
-                
-                while(prev.right != null){// find inorder predecessor
-                    prev = prev.right;
-                }
+        flatten(root.right);
+        flatten(root.left);
 
-                prev.right = curr.right;
+        root.right = prev;
+        root.left = null;
 
-                curr.right = curr.left;
-                curr.left = null;
-            }
-
-            curr = curr.right;
-        }
+        prev = root;
     }
 }
