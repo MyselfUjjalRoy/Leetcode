@@ -14,20 +14,36 @@
  * }
  */
 class Solution {
-    int count = 0;
     public int countNodes(TreeNode root) {
-        inorder(root);
+        if(root == null) return 0;
 
-        return count;
-    }
+        int leftHeight = findLeftHeight(root);
+        int rightHeight = findRightHeight(root);
 
-    public void inorder(TreeNode root){
-        if(root == null){
-            return;
+        if(leftHeight == rightHeight){
+            return (int)Math.pow(2 , leftHeight) - 1;
         }
 
-        count++;
-        inorder(root.left);
-        inorder(root.right);
+        return 1 + countNodes(root.left) + countNodes(root.right);
+    }
+
+    public int findLeftHeight(TreeNode node){
+        int height = 0;
+        while(node != null){
+            node = node.left;
+            height++;
+        }
+
+        return height;
+    }
+
+    public int findRightHeight(TreeNode node){
+        int height = 0;
+        while(node != null){
+            node = node.right;
+            height++;
+        }
+
+        return height;
     }
 }
