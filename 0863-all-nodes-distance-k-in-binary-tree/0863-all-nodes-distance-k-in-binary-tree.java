@@ -9,25 +9,28 @@
  */
 class Solution {
     public List<Integer> distanceK(TreeNode root, TreeNode start, int k) {
-        Map<TreeNode , TreeNode> parent = new HashMap<>();
-        TreeNode startNode = buildParentMap(root , parent , start);
+        Map<TreeNode , TreeNode> parentMap = new HashMap<>();
 
-        Queue<TreeNode> queue = new LinkedList<>();
+        buildParentMap(root , parentMap);
+
         Set<TreeNode> visited = new HashSet<>();
 
-        queue.offer(startNode);
-        visited.add(startNode);
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(start);
+        visited.add(start);
 
         int distance = 0;
 
         while(!queue.isEmpty()){
             if(distance == k){
-                ArrayList<Integer> list = new ArrayList<>();
+                List<Integer> ans = new ArrayList<>();
                 for(TreeNode node : queue){
-                    list.add(node.val);
+                    ans.add(node.val);
                 }
-                return list;
+
+                return ans;
             }
+
             int size = queue.size();
             for(int i = 0; i < size; i++){
                 TreeNode node = queue.poll();
@@ -36,44 +39,38 @@ class Solution {
                     visited.add(node.left);
                     queue.offer(node.left);
                 }
-
                 if(node.right != null && !visited.contains(node.right)){
                     visited.add(node.right);
                     queue.offer(node.right);
                 }
-
-                if(parent.containsKey(node) && !visited.contains(parent.get(node))){
-                    visited.add(parent.get(node));
-                    queue.offer(parent.get(node));
+                if(parentMap.containsKey(node) && !visited.contains(parentMap.get(node))){
+                    visited.add(parentMap.get(node));
+                    queue.offer(parentMap.get(node));
                 }
             }
             distance++;
         }
+
         return new ArrayList<>();
     }
-    public TreeNode buildParentMap(TreeNode root , Map<TreeNode , TreeNode> parent , TreeNode start){
+
+    public void buildParentMap(TreeNode root , Map<TreeNode , TreeNode> parentMap){
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-
-        TreeNode startNode = null;
 
         while(!queue.isEmpty()){
             TreeNode node = queue.poll();
 
-            if(node == start){
-                startNode = node;
-            }
-
             if(node.left != null){
+                parentMap.put(node.left , node);
                 queue.offer(node.left);
-                parent.put(node.left, node);
             }
-
             if(node.right != null){
+                parentMap.put(node.right , node);
                 queue.offer(node.right);
-                parent.put(node.right , node);
             }
         }
-        return startNode;
+
+
     }
 }
