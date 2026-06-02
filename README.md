@@ -306,6 +306,7 @@ Leetcode solutions
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0743-network-delay-time/) | Medium |
@@ -402,6 +403,7 @@ Leetcode solutions
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
 | [0547-number-of-provinces](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0547-number-of-provinces/) | Medium |
+| [0662-maximum-width-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0733-flood-fill](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0733-flood-fill/) | Easy |
 | [0743-network-delay-time](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0743-network-delay-time/) | Medium |
@@ -780,6 +782,7 @@ Leetcode solutions
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0257-binary-tree-paths/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
@@ -802,6 +805,7 @@ Leetcode solutions
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0257-binary-tree-paths/) | Easy |
 | [0543-diameter-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0543-diameter-of-binary-tree/) | Easy |
+| [0662-maximum-width-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0863-all-nodes-distance-k-in-binary-tree/) | Medium |
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
