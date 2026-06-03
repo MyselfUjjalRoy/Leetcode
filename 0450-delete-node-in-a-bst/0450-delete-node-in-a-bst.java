@@ -15,39 +15,61 @@
  */
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root == null) return root;
-
-        if(key < root.val){
-            root.left = deleteNode(root.left , key);
+        if(root == null){
+            return null;
         }
-        else if(key > root.val){
-            root.right = deleteNode(root.right , key);
-        }
-        else{
-            //means the key found
 
-            if(root.left == null && root.right == null){//means no child
-                return null;
-            }
-            //When single child
-            if(root.left == null){//having only right child
-                return root.right;
-            }
-            else if(root.right == null){//having only left child
-                return root.left;
+        if(root.val == key){
+            return helper(root);
+        }
+
+        TreeNode dummy = root;
+
+        while(root != null){
+            if(key < root.val){
+                if(root.left != null && root.left.val == key){
+                    root.left = helper(root.left);
+                    break;
+                }
+                else{
+                    root = root.left;
+                }
             }
             else{
-                TreeNode inorderPredecessor = findMin(root.right);
-                root.val = inorderPredecessor.val;
-                root.right = deleteNode(root.right , inorderPredecessor.val);
+                if(root.right != null && root.right.val == key){
+                    root.right = helper(root.right);
+                    break;
+                }
+                else{
+                    root = root.right;
+                }
             }
         }
-        return root;
+
+        return dummy;
     }
-    public TreeNode findMin(TreeNode node){
-        while(node.left != null){
-            node = node.left;
+
+    public TreeNode helper(TreeNode root){
+        if(root.left == null){
+            return root.right;
         }
-        return node;
+        else if(root.right == null){
+            return root.left;
+        }
+
+        TreeNode rightChild = root.right;
+        TreeNode lastRight = findLastRight(root.left);
+
+        lastRight.right = rightChild;
+
+        return root.left;
+    }
+
+    public TreeNode findLastRight(TreeNode root){
+        if(root.right == null){
+            return root;
+        }
+
+        return findLastRight(root.right);
     }
 }
