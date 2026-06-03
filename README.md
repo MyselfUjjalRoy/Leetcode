@@ -724,6 +724,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0297-serialize-and-deserialize-binary-tree/) | Hard |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
@@ -802,6 +803,7 @@ Leetcode solutions
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
@@ -838,6 +840,7 @@ Leetcode solutions
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0199-binary-tree-right-side-view](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
@@ -935,6 +938,7 @@ Leetcode solutions
 | [0144-binary-tree-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0145-binary-tree-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0155-min-stack](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0402-remove-k-digits](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
@@ -1060,10 +1064,15 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
 | [0450-delete-node-in-a-bst](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0701-insert-into-a-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0701-insert-into-a-binary-search-tree/) | Medium |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 <!---LeetCode Topics End-->
