@@ -17,13 +17,15 @@ class Solution {
         }
 
         Queue<Integer> queue = new LinkedList<>();
+
         for(int i = 0; i < V; i++){
             if(indegree[i] == 0){
                 queue.offer(i);
             }
         }
 
-        ArrayList<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+
         while(!queue.isEmpty()){
             int node = queue.poll();
             list.add(node);
