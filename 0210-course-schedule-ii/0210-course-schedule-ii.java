@@ -13,17 +13,18 @@ class Solution {
         }
 
         Queue<Integer> queue = new LinkedList<>();
-
-        for(int i = 0;i < V; i++){
+        for(int i = 0; i < V; i++){
             if(indegree[i] == 0){
                 queue.offer(i);
             }
         }
-        int[] ans = new int[V];
+
+        int[] order = new int[V];
         int idx = 0;
+
         while(!queue.isEmpty()){
             int node = queue.poll();
-            ans[idx++] = node;
+            order[idx++] = node;
 
             for(int nei : adj.get(node)){
                 indegree[nei]--;
@@ -31,10 +32,8 @@ class Solution {
                     queue.offer(nei);
                 }
             }
-            
         }
 
-        return idx == V ? ans : new int[]{};
-
+        return idx != V ? new int[]{} : order;
     }
 }
