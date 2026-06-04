@@ -1,27 +1,37 @@
 class Solution {
+    int m , n;
     public int numIslands(char[][] grid) {
-        int n=grid.length;
-        int m=grid[0].length;
-        int count=0;
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(grid[i][j]=='1'){
-                    solve(grid,i,j);
-                    count++;
+        m = grid.length;
+        n = grid[0].length;
+
+        int islands = 0;
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
+                if(grid[i][j] == '1'){
+                    dfs(i , j , grid);
+                    islands++;
                 }
             }
         }
-        return count;
+
+        return islands;
     }
-    public void solve(char[][] grid,int i,int j){
-        //dead ends
-        if(i<0 || j<0 || i>=grid.length || j>=grid[0].length || grid[i][j]=='0' || grid[i][j]=='2'){//these conditions strictly follow the sequence otherwise throw error
+    
+    int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
+
+    public void dfs(int r , int c , char[][] grid){
+        if(r < 0 || c < 0 || r >= m || c >= n || grid[r][c] != '1'){
             return;
         }
-        grid[i][j]='2';//to mark it as visited
-        solve(grid,i-1,j);
-        solve(grid,i+1,j);
-        solve(grid,i,j+1);
-        solve(grid,i,j-1);
+
+        grid[r][c] = '2';
+
+        for(int d = 0; d < 4; d++){
+            int nR = r + dir[2 * d];
+            int nC = c + dir[2 * d + 1];
+
+            dfs(nR , nC , grid);
+        }
     }
 }
