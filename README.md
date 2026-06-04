@@ -89,6 +89,7 @@ Leetcode solutions
 | [0200-number-of-islands](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
@@ -637,6 +638,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1009-complement-of-base-10-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
@@ -655,6 +657,7 @@ Leetcode solutions
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0222-count-complete-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
@@ -900,6 +903,7 @@ Leetcode solutions
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0653-two-sum-iv-input-is-a-bst/) | Easy |
 | [0845-longest-mountain-in-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0845-longest-mountain-in-array/) | Medium |
