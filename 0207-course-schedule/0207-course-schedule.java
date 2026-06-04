@@ -4,6 +4,7 @@ class Solution {
         for(int i = 0; i < n; i++){
             adj.add(new ArrayList<>());
         }
+
         int[] indegree = new int[n];
 
         for(int[] p : pre){
@@ -17,15 +18,17 @@ class Solution {
                 queue.offer(i);
             }
         }
+
         int count = 0;
+
         while(!queue.isEmpty()){
-            int u = queue.poll();
+            int node = queue.poll();
             count++;
 
-            for(int v : adj.get(u)){
-                indegree[v]--;
-                if(indegree[v] == 0){
-                    queue.offer(v);
+            for(int nei : adj.get(node)){
+                indegree[nei]--;
+                if(indegree[nei] == 0){
+                    queue.offer(nei);
                 }
             }
         }
