@@ -12,30 +12,32 @@ class Solution {
                     queue.offer(new int[]{i , j});
                 }
                 else{
-                    dist[i][j] = -1;
+                    dist[i][j] = -1; // means unvisited
                 }
             }
         }
-
+        
         int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
+
         while(!queue.isEmpty()){
-            int[] cell = queue.poll();
-            int r = cell[0];
-            int c = cell[1];
+            int size = queue.size();
+            while(size-- > 0){
+                int[] cell = queue.poll();
+                int r = cell[0];
+                int c = cell[1];
 
-            for(int d = 0; d < 4; d++){
-                int nR = r + dir[2 * d];
-                int nC = c + dir[2 * d + 1];
+                for(int d = 0; d < 4; d++){
+                    int nR = r + dir[2 * d];
+                    int nC = c + dir[2 * d + 1];
 
-                if(nR >= 0 && nC >= 0 && nR < m && nC < n && dist[nR][nC] == -1){
-                    queue.offer(new int[]{nR , nC});
-                    dist[nR][nC] = dist[r][c] + 1;
+                    if(nR >= 0 && nC >= 0 && nR < m && nC < n && dist[nR][nC] == -1){
+                        queue.offer(new int[]{nR , nC});
+                        dist[nR][nC] = dist[r][c] + 1;
+                    }
                 }
             }
         }
 
         return dist;
     }
-
-    
 }
