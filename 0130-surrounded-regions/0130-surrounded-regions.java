@@ -1,17 +1,20 @@
 class Solution {
     public void solve(char[][] board) {
-        int n = board.length;
-        int m = board[0].length;
-        for(int i = 0; i < n; i++){
-            if(board[i][0] == 'O') dfs( n , m , board , i , 0); 
-            if(board[i][m - 1] == 'O') dfs(n , m , board , i , m - 1);
+        int m = board.length;
+        int n = board[0].length;
+
+        for(int i = 0; i < m; i++){
+            if(board[i][0] == 'O') dfs(m , n , i , 0 , board);
+            if(board[i][n - 1] == 'O') dfs(m , n , i , n - 1 , board);
         }
-        for(int j = 0; j < m; j++){
-            if(board[0][j] == 'O') dfs(n , m , board , 0 , j);
-            if(board[n - 1][j] == 'O') dfs(n , m , board , n - 1 , j);
+
+        for(int j = 0; j < n; j++){
+            if(board[0][j] == 'O') dfs(m , n , 0 , j , board);
+            if(board[m - 1][j] == 'O') dfs(m , n , m - 1, j , board);
         }
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j < m; j++){
+
+        for(int i = 0; i < m; i++){
+            for(int j = 0; j < n; j++){
                 if(board[i][j] == 'O'){
                     board[i][j] = 'X';
                 }
@@ -21,17 +24,19 @@ class Solution {
             }
         }
     }
-    public void dfs(int n , int m , char[][] board , int row , int col){
-        if(row < 0 || col < 0 || row >= n || col >= m || board[row][col] != 'O') return;
 
-        board[row][col] = '#';
-        int[] dx = {-1 , 0 , 1 , 0};
-        int[] dy = {0 , 1 , 0 , -1};
-        for(int i = 0; i < 4; i++){
-            int nRow = row + dx[i];
-            int nCol = col + dy[i];
+    int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
 
-            dfs(n , m , board , nRow , nCol);
+    public void dfs(int m , int n , int r , int c , char[][] board){
+        if(r < 0 || c < 0 || r >= m || c >= n || board[r][c] != 'O') return;
+        
+        board[r][c] = '#';
+
+        for(int d = 0; d < 4; d++){
+            int nR = r + dir[2 * d];
+            int nC = c + dir[2 * d + 1];
+
+            dfs(m , n , nR , nC , board);
         }
     }
 }
