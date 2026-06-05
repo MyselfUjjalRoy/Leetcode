@@ -84,6 +84,7 @@ Leetcode solutions
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0174-dungeon-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0174-dungeon-game/) | Hard |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0198-house-robber](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0198-house-robber/) | Medium |
@@ -552,6 +553,7 @@ Leetcode solutions
 | [0142-linked-list-cycle-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0146-lru-cache](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0146-lru-cache/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
@@ -782,6 +784,7 @@ Leetcode solutions
 | [0075-sort-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0088-merge-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
+| [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -1003,6 +1006,7 @@ Leetcode solutions
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
+| [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
@@ -1059,6 +1063,7 @@ Leetcode solutions
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0992-subarrays-with-k-different-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
