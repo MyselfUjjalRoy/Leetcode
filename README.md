@@ -69,6 +69,7 @@ Leetcode solutions
 | [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0075-sort-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0075-sort-colors/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
@@ -365,6 +366,7 @@ Leetcode solutions
 | [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0064-minimum-path-sum/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0085-maximal-rectangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0085-maximal-rectangle/) | Hard |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0174-dungeon-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0174-dungeon-game/) | Hard |
@@ -657,6 +659,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0074-search-a-2d-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0222-count-complete-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
