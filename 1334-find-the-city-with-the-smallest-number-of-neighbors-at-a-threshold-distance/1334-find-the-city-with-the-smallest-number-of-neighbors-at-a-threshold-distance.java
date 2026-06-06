@@ -1,45 +1,68 @@
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        int[][] dist = new int[n][n];
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(dist[i], Integer.MAX_VALUE);
-            dist[i][i] = 0;
+        ArrayList<ArrayList<int[]>> adj = new ArrayList<>();
+        for(int i = 0; i < n; i++){
+            adj.add(new ArrayList<>());
         }
 
-        for (int[] edge : edges) {
-            dist[edge[0]][edge[1]] = edge[2];
-            dist[edge[1]][edge[0]] = edge[2];
+        for(int[] edge : edges){
+            int u = edge[0];
+            int v = edge[1];
+            int wt = edge[2];
+
+            adj.get(u).add(new int[]{v , wt});
+            adj.get(v).add(new int[]{u , wt});
         }
 
-        for (int via = 0; via < n; via++) {
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    if (dist[i][via] == Integer.MAX_VALUE || dist[via][j] == Integer.MAX_VALUE) {
-                        continue;
-                    } else {
-                        dist[i][j] = Math.min(dist[i][j], dist[i][via] + dist[via][j]);
-                    }
-                }
-            }
-        }
+        int cityNo = 0;
+        int minReachable = n;
 
-        int maxCity = n;
-        int cityNo = -1;
+        for(int i = 0; i < n; i++){
+            int reachable = dijkstra(i , n , adj , distanceThreshold);
 
-        for (int city = 0; city < n; city++) {
-            int count = 0;
-            for (int adjCity = 0; adjCity < n; adjCity++) {
-                if (dist[city][adjCity] <= distanceThreshold) {
-                    count++;
-                }
-            }
-
-            if (count <= maxCity) {
-                maxCity = count;
-                cityNo = city;
+            if(reachable <= minReachable){
+                minReachable = reachable;
+                cityNo = i;
             }
         }
 
         return cityNo;
     }
+
+    public int dijkstra(int src , int n , ArrayList<ArrayList<int[]>> adj , int distanceThreshold){
+        int[] dist = new int[n];
+        Arrays.fill(dist , Integer.MAX_VALUE);
+
+        dist[src] = 0;
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> a[0] - b[0]);
+        pq.offer(new int[]{0 , src}); // [distance , node];
+
+        while(!pq.isEmpty()){
+            int[] curr = pq.poll();
+            int cost = curr[0];
+            int node = curr[1];
+
+            for(int[] nei : adj.get(node)){
+                int nextNode = nei[0];
+                int nextCost = nei[1];
+
+                if(cost + nextCost < dist[nextNode]){
+                    dist[nextNode] = cost + nextCost;
+                    pq.offer(new int[]{dist[nextNode] , nextNode});
+                }
+            }
+        }
+
+        int count = 0;
+
+        for(int i = 0; i < n; i++){
+            if(dist[i] <= distanceThreshold){
+                count++;
+            }
+        }
+
+        return count;
+    }
 }
+
