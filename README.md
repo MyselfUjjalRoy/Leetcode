@@ -90,6 +90,7 @@ Leetcode solutions
 | [0198-house-robber](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0213-house-robber-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
+| [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
@@ -558,6 +559,7 @@ Leetcode solutions
 | [0160-intersection-of-two-linked-lists](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0208-implement-trie-prefix-tree/) | Medium |
+| [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0264-ugly-number-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0264-ugly-number-ii/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0433-minimum-genetic-mutation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0433-minimum-genetic-mutation/) | Medium |
@@ -792,6 +794,7 @@ Leetcode solutions
 | [0088-merge-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0088-merge-sorted-array/) | Easy |
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
@@ -1075,6 +1078,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0992-subarrays-with-k-different-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0992-subarrays-with-k-different-integers/) | Hard |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
