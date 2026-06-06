@@ -1,7 +1,9 @@
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
         ArrayList<ArrayList<int[]>> adj = new ArrayList<>();
-        for(int i = 0; i <= n; i++) adj.add(new ArrayList<>());
+        for(int i = 0; i <= n; i++){
+            adj.add(new ArrayList<>());
+        }
 
         for(int[] time : times){
             int u = time[0];
@@ -16,30 +18,33 @@ class Solution {
 
         dist[k] = 0;
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> a[1] - b[1]); //[node , time]
-        pq.offer(new int[]{k , 0});
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> a[0] - b[0]);
+        pq.offer(new int[]{0 , k}); // [time , node]
 
         while(!pq.isEmpty()){
             int[] curr = pq.poll();
-            int node = curr[0];
-            int time = curr[1];
+            int time = curr[0];
+            int node = curr[1];
+
             for(int[] nei : adj.get(node)){
-                int nextNode = nei[0];
+                int v = nei[0];
                 int wt = nei[1];
-                if(time + wt < dist[nextNode]){
-                    dist[nextNode] = time + wt;
-                    pq.offer(new int[]{nextNode , dist[nextNode]});
+
+                if(time + wt < dist[v]){
+                    dist[v] = time + wt;
+                    pq.offer(new int[]{dist[v] , v});
                 }
             }
         }
 
-        int minTime = Integer.MIN_VALUE;
+        int ans = Integer.MIN_VALUE;
         for(int i = 1; i <= n; i++){
             if(dist[i] == Integer.MAX_VALUE){
                 return -1;
             }
-            minTime = Math.max(minTime , dist[i]);
+            ans = Math.max(ans , dist[i]);
         }
-        return minTime;
+
+        return ans;
     }
 }
