@@ -175,6 +175,7 @@ Leetcode solutions
 | [2126-destroying-asteroids](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
+| [2196-create-binary-tree-from-descriptions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -583,6 +584,7 @@ Leetcode solutions
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1943-describe-the-painting](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1943-describe-the-painting/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2196-create-binary-tree-from-descriptions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2540-minimum-common-value](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2615-sum-of-distances/) | Medium |
@@ -869,6 +871,7 @@ Leetcode solutions
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [2196-create-binary-tree-from-descriptions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -908,6 +911,7 @@ Leetcode solutions
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1008-construct-binary-search-tree-from-preorder-traversal/) | Medium |
 | [1361-validate-binary-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1361-validate-binary-tree-nodes/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
+| [2196-create-binary-tree-from-descriptions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
