@@ -7,17 +7,18 @@ class Solution {
                 parent[i] = i;
             }
         }
-        int find(int x){
-            if(parent[x] != x){
-                parent[x] = find(parent[x]);
-            }
-            return parent[x];
+
+        int find(int node){
+            if(parent[node] == node) return node;
+            return parent[node] = find(parent[node]);
         }
-        void union(int x , int y){
-            int px = find(x);
-            int py = find(y);
-            if(px != py){
-                parent[px] = py;
+
+        void union(int u , int v){
+            int pu = find(u);
+            int pv = find(v);
+
+            if(pu != pv){
+                parent[pu] = pv;
             }
         }
     }
@@ -30,14 +31,12 @@ class Solution {
             maxCol = Math.max(maxCol , stone[1]);
         }
 
-        int offSet = maxRow + 1; // it will help to convert columns to node
+        int offSet = maxRow + 1; // that will help to convert cols to node
 
-        DSU dsu = new DSU(maxRow + maxCol + 2);
+        DSU dsu = new DSU(maxCol + (maxRow + 1) + 1);
 
-        // to track which nodes are actually used
+        // to track which nodes are used and to count components
         HashSet<Integer> usedNodes = new HashSet<>();
-
-        // union row and cols
 
         for(int[] stone : stones){
             int row = stone[0];
