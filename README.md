@@ -458,6 +458,7 @@ Leetcode solutions
 | [0979-distribute-coins-in-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0979-distribute-coins-in-binary-tree/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
+| [1192-critical-connections-in-a-network](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1192-critical-connections-in-a-network/) | Hard |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1306-jump-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
@@ -513,6 +514,7 @@ Leetcode solutions
 | [0834-sum-of-distances-in-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0834-sum-of-distances-in-tree/) | Hard |
 | [0886-possible-bipartition](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0886-possible-bipartition/) | Medium |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0947-most-stones-removed-with-same-row-or-column/) | Medium |
+| [1192-critical-connections-in-a-network](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1192-critical-connections-in-a-network/) | Hard |
 | [1203-sort-items-by-groups-respecting-dependencies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1203-sort-items-by-groups-respecting-dependencies/) | Hard |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
@@ -1145,4 +1147,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
+## Biconnected Component
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1192-critical-connections-in-a-network](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1192-critical-connections-in-a-network/) | Hard |
 <!---LeetCode Topics End-->
