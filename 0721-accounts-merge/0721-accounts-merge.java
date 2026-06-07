@@ -6,29 +6,29 @@ class Solution {
             parent = new int[n];
             size = new int[n];
             for(int i = 0; i < n; i++){
+                size[i] = 1;
                 parent[i] = i;
-                size[i] = 0;
             }
         }
-        public int findParent(int x){
-            if(parent[x] != x){
-                parent[x] = findParent(parent[x]);
-            }
-            return parent[x];
+
+        public int find(int node){
+            if(parent[node] == node) return node;
+            else return parent[node] = find(parent[node]);
         }
-        public void union(int a , int b){
-            int pA = findParent(a);
-            int pB = findParent(b);
 
-            if(pA == pB) return;
+        public void union(int u , int v){
+            int pu = find(u);
+            int pv = find(v);
 
-            if(size[pA] < size[pB]){
-                parent[pA] = pB;
-                size[pB] += size[pA];
+            if(pu == pv) return;
+
+            if(size[pu] < size[pv]){
+                parent[pu] = pv;
+                size[pv] += size[pu];
             }
             else{
-                parent[pB] = pA;
-                size[pA] += size[pA];
+                parent[pv] = pu;
+                size[pu] += size[pv];
             }
         }
     }
@@ -36,41 +36,47 @@ class Solution {
         int n = accounts.size();
         DSU dsu = new DSU(n);
         Map<String , Integer> emailToIndex = new HashMap<>();
-
-        for(int i = 0; i < n; i++){
-            for(int j = 1; j < accounts.get(i).size(); j++){
-                String email = accounts.get(i).get(j);
-
+        
+        for(int accIdx = 0; accIdx < n; accIdx++){
+            int size = accounts.get(accIdx).size();
+            for(int i = 1; i < size; i++){
+                String email = accounts.get(accIdx).get(i);
                 if(!emailToIndex.containsKey(email)){
-                    emailToIndex.put(email , i);
+                    emailToIndex.put(email , accIdx);
                 }
                 else{
-                    dsu.union(i , emailToIndex.get(email));
+                    dsu.union(accIdx , emailToIndex.get(email));
                 }
             }
         }
 
-        List<List<String>> mergedEmail = new ArrayList<>();
-        for(int i = 0; i < n; i++) mergedEmail.add(new ArrayList<>());
-
-        for(String email : emailToIndex.keySet()){
-            int ultParent = dsu.findParent(emailToIndex.get(email));
-            mergedEmail.get(ultParent).add(email);
+        List<List<String>> mergedMail = new ArrayList<>();
+        for(int i = 0; i < n; i++){
+            mergedMail.add(new ArrayList<>());
         }
 
-        List<List<String>> list = new ArrayList<>();
+        for(String mail : emailToIndex.keySet()){
+            int ultParent = dsu.find(emailToIndex.get(mail));
+
+            mergedMail.get(ultParent).add(mail);
+        }
+
+        List<List<String>> ans = new ArrayList<>();
 
         for(int i = 0; i < n; i++){
-            if(mergedEmail.get(i).size() == 0) continue;
+            List<String> acc = mergedMail.get(i);
 
-            Collections.sort(mergedEmail.get(i));
+            if(acc.size() == 0) continue;
+
             List<String> temp = new ArrayList<>();
-            temp.add(accounts.get(i).get(0));// adding name
-            temp.addAll(mergedEmail.get(i)); // adding emails
-            list.add(temp);
+
+            temp.add(accounts.get(i).get(0));// for name
+            Collections.sort(acc);
+            temp.addAll(acc);
+
+            ans.add(temp);
         }
 
-        return list;
-
+        return ans;
     }
 }
