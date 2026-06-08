@@ -8,17 +8,17 @@ class Solution {
         dp = new int[n];
         Arrays.fill(dp , -1);
 
-        int case1 = solve(0 , n - 1 , nums);
+        int case1 = solve(0 , n - 2 , nums);
         
         Arrays.fill(dp , -1);
 
-        int case2 = solve(1 , n , nums);
+        int case2 = solve(1 , n - 1 , nums);
 
         return Math.max(case1 , case2);
     }
 
     public int solve(int idx , int n , int[] nums){
-        if(idx >= n){
+        if(idx > n){
             return 0;
         }
 
