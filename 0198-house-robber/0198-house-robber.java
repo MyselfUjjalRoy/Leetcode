@@ -5,18 +5,15 @@ class Solution {
         if (n == 0) return 0;
         if (n == 1) return nums[0];
 
-        //int[] dp = new int[n];
-
-        int a = nums[0];
-        int b = Math.max(nums[0], nums[1]);
-        int c = 0;
+        int prev2 = nums[0];
+        int prev1 = Math.max(nums[0], nums[1]);
 
         for (int i = 2; i < n; i++) {
-            c = Math.max(b , nums[i] + a);
-            a = b;
-            b = c;
+            int curr = Math.max(prev1, nums[i] + prev2);
+            prev2 = prev1;
+            prev1 = curr;
         }
 
-        return b;
+        return prev1;
     }
 }
