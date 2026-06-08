@@ -1,9 +1,10 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
-        //if(n)
 
         int[] dp = new int[n + 1];
+        // dp[i] = max stonen money till house i
+        // no house : i = 0
         dp[0] = 0;
         dp[1] = nums[0];
 
