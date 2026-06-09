@@ -27,10 +27,12 @@ class Solution {
 
         int skip = LIS(prevIdx , currIdx + 1 , nums);
 
+        int ans = Math.max(take , skip);
+
         if(prevIdx != -1){
-            dp[prevIdx][currIdx] = Math.max(take , skip);
+            dp[prevIdx][currIdx] = ans;
         }
 
-        return Math.max(take , skip);
+        return ans;
     }
 }
