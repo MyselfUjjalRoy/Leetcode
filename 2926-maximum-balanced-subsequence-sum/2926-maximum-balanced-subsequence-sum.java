@@ -1,38 +1,31 @@
 class Solution {
-    /* recursion + memoization -> failed 341/346 passed , same for bottom up
-       solve with the logic of lis
-       -optimized solution -codestorywithMIK
-    */
     public long maxBalancedSubsequenceSum(int[] nums) {
         int n = nums.length;
-        int[] arr = new int[n];
-        for(int i = 0; i < n; i++){
-            arr[i] = nums[i] - i;;
-        }
+        TreeMap<Integer, Long> map = new TreeMap<>();
+        long ans = Long.MIN_VALUE;
 
-        TreeMap<Integer , Long> map = new TreeMap<>(); // {nums[i] - i , sum}
+        for (int i = 0; i < n; i++) {
+            if (nums[i] <= 0) {
+                ans = Math.max(ans, nums[i]);
+            } else {
 
-        long ans = Integer.MIN_VALUE;
+                int key = nums[i] - i;
 
-        for(int i = 0; i < n; i++){
-            if(nums[i] <= 0){
-                ans = Math.max(nums[i] , ans);
-            }
-            else{
-                long temp = nums[i];
-                if(map.floorKey(arr[i]) != null){
-                    temp += map.get(map.floorKey(arr[i]));
+                Integer floorKey = map.floorKey(key);
+                long currSum = nums[i];
+                if (floorKey != null) {
+                    currSum += map.get(floorKey);
                 }
 
-                while(map.ceilingKey(arr[i]) != null && map.get(map.ceilingKey(arr[i])) < temp){
-                    map.remove(map.ceilingKey(arr[i]));
+                map.put(key, Math.max(map.getOrDefault(key, Long.MIN_VALUE), currSum));
+
+                Integer higherKey = map.higherKey(key);
+                while (higherKey != null && map.get(higherKey) <= currSum) {
+                    map.remove(higherKey);
+                    higherKey = map.higherKey(key);
                 }
 
-                if(map.floorKey(arr[i]) == null || map.get(map.floorKey(arr[i])) < temp){
-                    map.put(arr[i] , temp);
-                }
-
-                ans = Math.max(ans , temp);
+                ans = Math.max(ans, currSum);
             }
         }
 
