@@ -1,36 +1,36 @@
 class Solution {
+    int n;
+    int[][] dp;
     public int lengthOfLIS(int[] nums) {
-        ArrayList<Integer> list = new ArrayList<>();
-        for(int num : nums){
-            int idx = lowerBound(list , num);
-
-            if(idx == list.size()){
-                list.add(num);
-            }
-            else{
-                list.set(idx , num);
-            }
+        n = nums.length;
+        dp = new int[n + 1][n + 1];
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return list.size();
+        return LIS(-1 , 0 , nums); // [prevIdx , currIdx , nums]
     }
 
-    public int lowerBound(ArrayList<Integer> list , int target){
-        int left = 0 , right = list.size() - 1;
-        int ans = list.size();
-
-        while(left <= right){
-            int mid = left + (right - left) / 2;
-
-            if(list.get(mid) >= target){
-                ans = mid;
-                right = mid - 1;
-            }
-            else{
-                left = mid + 1;
-            }
+    public int LIS(int prevIdx , int currIdx , int[] nums){
+        if(currIdx >= n){
+            return 0;
         }
 
-        return ans;
+        if(prevIdx != -1 && dp[prevIdx][currIdx] != -1){
+            return dp[prevIdx][currIdx];
+        }
+
+        int take = 0;
+        if(prevIdx == -1 || nums[prevIdx] < nums[currIdx]){
+            take = 1 + LIS(currIdx , currIdx + 1 , nums);
+        }
+
+        int skip = LIS(prevIdx , currIdx + 1 , nums);
+
+        if(prevIdx != -1){
+            dp[prevIdx][currIdx] = Math.max(take , skip);
+        }
+
+        return Math.max(take , skip);
     }
 }
