@@ -113,6 +113,7 @@ Leetcode solutions
 | [0518-coin-change-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0518-coin-change-ii/) | Medium |
 | [0525-contiguous-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0525-contiguous-array/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
+| [0646-maximum-length-of-pair-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
@@ -268,6 +269,7 @@ Leetcode solutions
 | [0518-coin-change-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0518-coin-change-ii/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0583-delete-operation-for-two-strings/) | Medium |
+| [0646-maximum-length-of-pair-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -713,6 +715,7 @@ Leetcode solutions
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0402-remove-k-digits](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0402-remove-k-digits/) | Medium |
+| [0646-maximum-length-of-pair-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -811,6 +814,7 @@ Leetcode solutions
 | [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0646-maximum-length-of-pair-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
