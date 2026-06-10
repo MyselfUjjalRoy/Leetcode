@@ -1,36 +1,53 @@
 class Solution {
-    // Striver
-    boolean isPalindrome(int i, int j, String s) {
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
-                return false;
-            }
-            i++;
-            j--;
-        }
-
-        return true;
-    }
-
-    public int minCut(String s) {
+    /*
+    Best Example to dry run -> abcb
+    */
+    public int solve(String s) {
         int n = s.length();
+        boolean[][] dp = new boolean[n + 1][n + 1];
 
-        int[] dp = new int[n + 1];
-        //Arrays.fill(dp , -1);
+        for(int length = 1; length <= n; length++){
+            for(int i = 0; i + length - 1 < n; i++){
+                int j = i + length - 1;
 
-        for (int i = n - 1; i >= 0; i--) {
-            int ans = Integer.MAX_VALUE;
-            String temp = "";
-
-            for (int j = i; j < n; j++) {
-                if (isPalindrome(i, j, s)) {
-                    int cost = 1 + dp[j + 1];
-                    ans = Math.min(ans, cost);
+                if(i == j){ // length 1 always pallindrome
+                    dp[i][j] = true;
+                }
+                else if(i + 1 == j){ // length 2
+                    dp[i][j] = (s.charAt(i) == s.charAt(j));
+                }
+                else{
+                    dp[i][j] = (s.charAt(i) == s.charAt(j)) && (dp[i + 1][j - 1] == true);
                 }
             }
-            dp[i] = ans;
         }
 
-        return dp[0] - 1; // -1 because it is partitioning at the last 
+        int[] cuts = new int[n];
+        Arrays.fill(cuts , Integer.MAX_VALUE);
+        
+        for(int i = 0; i < n; i++){
+            if(dp[0][i]){ // means pallindrome
+                cuts[i] = 0;
+            }
+            else{
+                for(int k = 0; k < i; k++){
+                    if(dp[k + 1][i] == true && 1 + cuts[k] < cuts[i]){
+                        cuts[i] = 1 + cuts[k];
+                    }
+                }
+            }
+        }
+
+        return cuts[n - 1];
+    }
+
+    public int minCut(String s){
+        int n = s.length();
+
+        if(n == 0 || n == 1){
+            return 0;
+        }
+
+        return solve(s);
     }
 }
