@@ -4,6 +4,9 @@ class Solution {
         int n = s2.length();
 
         int[][] dp = new int[m + 1][n + 1];
+        for(int i = 0; i < m + 1; i++){
+            Arrays.fill(dp[i] , -1);
+        }
 
         for(int i = 0; i < m + 1; i++){
             for(int j = 0; j < n + 1; j++){
@@ -23,7 +26,7 @@ class Solution {
 
         StringBuilder scs = new StringBuilder();
 
-        int i = m, j = n;
+        int i = m , j = n;
 
         while(i > 0 && j > 0){
             if(s1.charAt(i - 1) == s2.charAt(j - 1)){
@@ -34,21 +37,21 @@ class Solution {
             else{
                 if(dp[i - 1][j] < dp[i][j - 1]){
                     scs.append(s1.charAt(i - 1));
-                    i--;
+                    i--; // as the row is eliminated , row character added
                 }
                 else{
                     scs.append(s2.charAt(j - 1));
-                    j--;
+                    j--; // as the col is eliminated , col character added
                 }
             }
         }
 
-        while(i > 0){ // if s1 is not empty , but s2 is empty
+        while(i > 0){ // if s1 is not finished
             scs.append(s1.charAt(i - 1));
             i--;
         }
 
-        while(j > 0){
+        while(j > 0){ // if s2 is not finished
             scs.append(s2.charAt(j - 1));
             j--;
         }
