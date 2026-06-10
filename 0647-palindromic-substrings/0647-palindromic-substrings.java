@@ -1,40 +1,31 @@
 class Solution {
-    int n;
-    int[][] dp;
     public int countSubstrings(String s) {
-        n = s.length();
+        int n = s.length();
 
-        dp = new int[n + 1][n + 1];
-        for(int i = 0; i < n + 1; i++){
-            Arrays.fill(dp[i] , -1);
-        }
+        boolean[][] dp = new boolean[n + 1][n + 1];
 
         int count = 0;
 
-        for(int i = 0; i < n; i++){
-            for(int j = i; j < n; j++){
-                if(checkPallindrome(s , i , j) == 1){
+        for(int length = 1; length <= n; length++){
+            for(int i = 0; i + length - 1 < n; i++){
+                int j = i + length - 1;
+
+                if(i == j){
+                    dp[i][j] = true;
+                }
+                else if(i + 1 == j){
+                    dp[i][j] = s.charAt(i) == s.charAt(j);
+                }
+                else{
+                    dp[i][j] = (s.charAt(i) == s.charAt(j)) && (dp[i + 1][j - 1] == true); 
+                }
+
+                if(dp[i][j] == true){
                     count++;
                 }
             }
         }
 
         return count;
-    }
-
-    public int checkPallindrome(String s , int i , int j){
-        if(i > j){
-            return 1;
-        }
-
-        if(dp[i][j] != -1){
-            return dp[i][j];
-        }
-
-        if(s.charAt(i) == s.charAt(j)){
-            return dp[i][j] = checkPallindrome(s , i + 1 , j - 1);
-        }
-
-        return 0;
     }
 }
