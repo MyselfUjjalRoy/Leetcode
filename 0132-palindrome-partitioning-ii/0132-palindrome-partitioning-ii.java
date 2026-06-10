@@ -24,13 +24,13 @@ class Solution {
 
         int[] cuts = new int[n];
         Arrays.fill(cuts , Integer.MAX_VALUE);
-        
+
         for(int i = 0; i < n; i++){
             if(dp[0][i]){ // means pallindrome
                 cuts[i] = 0;
             }
             else{
-                for(int k = 0; k < i; k++){
+                for(int k = 0; k < i; k++){ // means k pe cut , and cut ke baad pallindrome hona parega and also agar i th mei min hai after cut , then update
                     if(dp[k + 1][i] == true && 1 + cuts[k] < cuts[i]){
                         cuts[i] = 1 + cuts[k];
                     }
