@@ -1,32 +1,35 @@
 class Solution {
-    int m , n;
-    int[][] dp;
     public int uniquePathsWithObstacles(int[][] grid) {
-        m = grid.length;
-        n = grid[0].length;
+        int m = grid.length;
+        int n = grid[0].length;
 
-        dp = new int[m][n];
-        for(int i = 0; i < m; i++){
-            Arrays.fill(dp[i] , -1);
+        int[][] dp = new int[m][n];
+
+        dp[0][0] = (grid[0][0] == 1) ? 0 : 1;
+
+        // filling the first row
+        for (int col = 1; col < n; col++) {
+            dp[0][col] = (grid[0][col] == 1) ? 0 : dp[0][col - 1];
         }
 
-        return solve(m - 1 , n - 1 , grid);
-    }
-
-    public int solve(int i , int j , int[][] grid){
-        if(i < 0 || j < 0 || grid[i][j] == 1){
-            return 0;
+        // filling the first col
+        for (int row = 1; row < m; row++) {
+            dp[row][0] = (grid[row][0] == 1) ? 0 : dp[row - 1][0];
         }
 
-        if(i == 0 && j == 0) return 1;
-        
-        if(dp[i][j] != -1){
-            return dp[i][j];
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                if (grid[i][j] == 1) {
+                    dp[i][j] = 0;
+                } else {
+                    int up = dp[i - 1][j];
+                    int left = dp[i][j - 1];
+
+                    dp[i][j] = up + left;
+                }
+            }
         }
 
-        int up = solve(i - 1 , j , grid);
-        int left = solve(i , j - 1 , grid);
-
-        return dp[i][j] = up + left;
+        return dp[m - 1][n - 1];
     }
 }
