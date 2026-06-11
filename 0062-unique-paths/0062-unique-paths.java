@@ -19,9 +19,9 @@ class Solution {
 
         if(dp[i][j] != -1) return dp[i][j];
 
-        int up = solve(i + 1 , j);
-        int left = solve(i , j + 1);
+        int down = solve(i + 1 , j);
+        int right = solve(i , j + 1);
 
-        return dp[i][j] = up + left;
+        return dp[i][j] = down + right;
     }
 }
