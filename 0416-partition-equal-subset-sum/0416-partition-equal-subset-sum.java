@@ -1,37 +1,44 @@
 class Solution {
+    int n;
     Boolean[][] dp;
-    public boolean canPartition(int[] nums) {
-        int n = nums.length;
-        int total = 0;
-        for(int num : nums){
-            total += num;
+
+    public Boolean solve(int n , int sum , int[] nums){
+        if(n == 0){
+            return sum == 0;
+        }
+        if(sum == 0){
+            return true;
         }
 
-        if(total % 2 != 0){
-            return false;
+        if(dp[n][sum] != null){
+            return dp[n][sum];
         }
 
-        int target = total / 2;
-        dp = new Boolean[n][target + 1];
-        
-        return solve(nums , target , n - 1);
+        Boolean skip = solve(n - 1 , sum , nums);
+        Boolean take = false;
+
+        if(nums[n - 1] <= sum){
+            take = solve(n - 1 , sum - nums[n - 1] , nums);
+        }
+
+        dp[n][sum] = take || skip;
+
+        return dp[n][sum];
     }
+    public boolean canPartition(int[] nums) {
+        n = nums.length;
+        int sum = 0;
 
-    public boolean solve(int[] nums , int target , int idx){
-        if(target == 0) return true;
-        if(idx == 0) return nums[idx] == target;
-
-        if(dp[idx][target] != null){
-            return dp[idx][target];
+        for(int num : nums){
+            sum += num;
         }
 
-        boolean skip = solve(nums , target , idx - 1);
-        boolean take = false;
+        int target = sum / 2;
 
-        if(nums[idx] <= target){
-            take = solve(nums , target - nums[idx] , idx - 1);
-        }
+        if(sum % 2 != 0) return false;
 
-        return dp[idx][target] = take || skip;
+        dp = new Boolean[n + 1][target + 1];
+
+        return solve(n , target , nums);
     }
 }
