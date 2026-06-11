@@ -1,48 +1,84 @@
 class Solution {
+    int n;
+    int[][] dp;
+
+    public int child1_Collect(int[][] fruits){
+        int score = 0;
+        for(int i = 0; i < n; i++){
+            score += fruits[i][i];
+            fruits[i][i] = 0;
+        }
+
+        return score;
+    }
+
+    public int child2_Collect(int i , int j , int[][] fruits){
+        if(i >= n || j < 0 || j >= n){
+            return 0;
+        }
+
+        if(i == n - 1 && j == n - 1){
+            return 0; // already collected by child 1
+        }
+
+        if(i == j || i > j){
+            return 0;
+        }
+
+        if(dp[i][j] != -1){
+            return dp[i][j];
+        }
+
+        int leftCorner = fruits[i][j] + child2_Collect(i + 1 , j - 1 , fruits);
+        int down = fruits[i][j] + child2_Collect(i + 1 , j , fruits);
+        int rightCorner = fruits[i][j] + child2_Collect(i + 1 , j + 1 , fruits);
+
+        return dp[i][j] = Math.max(leftCorner , Math.max(down , rightCorner));
+    }
+
+    public int child3_Collect(int i , int j , int[][] fruits){
+        if(i >= n || i < 0  || j >= n){
+            return 0;
+        }
+
+        if(i == n - 1 && j == n - 1){
+            return 0; // already collected by child 1
+        }
+
+        if(i == j || j > i){
+            return 0;
+        }
+
+        if(dp[i][j] != -1){
+            return dp[i][j];
+        }
+
+        int topCorner = fruits[i][j] + child3_Collect(i - 1 , j + 1 , fruits);
+        int right = fruits[i][j] + child3_Collect(i , j + 1 , fruits);
+        int rightCorner = fruits[i][j] + child3_Collect(i + 1 , j + 1 , fruits);
+
+        return dp[i][j] = Math.max(topCorner , Math.max(right , rightCorner));
+    }
+
+
     public int maxCollectedFruits(int[][] fruits) {
-        int n = fruits.length;
-        int[][] t = new int[n][n];
-
-        int child1 = 0;
-        for(int i = 0; i < n; i++){
-            child1 += fruits[i][i];
-        }
-
-        // Before child2 and child3 , nullify the cells which can't be visited by child2 and child3
+        n = fruits.length;
+        dp = new int[n][n];
 
         for(int i = 0; i < n; i++){
-            for(int j = 0; j < n; j++){
-                if(i < j && i + j < n - 1){
-                    t[i][j] = 0; // where child2 can't go
-                }
-                else if(i > j && i + j < n - 1){
-                    t[i][j] = 0; // where child3 can't go
-                }
-                else{
-                    t[i][j] = fruits[i][j];
-                }
-            }
+            Arrays.fill(dp[i] , -1);
         }
 
-        // child2 collect fruits now.......
-        // it can collect only cells upper to diagonal : i < j
+        // first child
+        int firstChildScore = child1_Collect(fruits);
 
-        for(int i = 1; i < n; i++){
-            for(int j = i + 1; j < n; j++){
-                t[i][j] += Math.max(t[i - 1][j - 1] , Math.max(t[i - 1][j] , (j + 1 < n) ? t[i - 1][j + 1] : 0));
-            }
-        }
+        // second child
+        int secondChildScore = child2_Collect(0 , n - 1 , fruits);
 
-        // child3 collect fruits now.......
-        // it can collect only cells lower to diagonal : i > j
+        // third child
 
-        for(int j = 1; j < n; j++){
-            for(int i = j + 1; i < n; i++){
-                t[i][j] += Math.max(t[i - 1][j - 1] , Math.max(t[i][j - 1] , (i + 1 < n) ? t[i + 1][j - 1] : 0));
-            }
-        }
+        int thirdChildScore = child3_Collect(n - 1 , 0 , fruits);
 
-
-        return child1 + t[n - 2][n - 1] + t[n - 1][n - 2];
+        return firstChildScore + secondChildScore + thirdChildScore;
     }
 }
