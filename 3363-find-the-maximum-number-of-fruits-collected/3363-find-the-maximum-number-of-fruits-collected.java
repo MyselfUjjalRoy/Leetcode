@@ -6,7 +6,7 @@ class Solution {
         int score = 0;
         for(int i = 0; i < n; i++){
             score += fruits[i][i];
-            fruits[i][i] = 0;
+            //fruits[i][i] = 0;
         }
 
         return score;
