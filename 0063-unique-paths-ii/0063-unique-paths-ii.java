@@ -1,13 +1,11 @@
 class Solution {
+    int m , n;
     int[][] dp;
     public int uniquePathsWithObstacles(int[][] grid) {
-        int m = grid.length;
-        int n = grid[0].length;
-
-        if(grid[0][0] == 1 || grid[m - 1][n -1] == 1) return 0;
+        m = grid.length;
+        n = grid[0].length;
 
         dp = new int[m][n];
-
         for(int i = 0; i < m; i++){
             Arrays.fill(dp[i] , -1);
         }
@@ -21,7 +19,7 @@ class Solution {
         }
 
         if(i == 0 && j == 0) return 1;
-
+        
         if(dp[i][j] != -1){
             return dp[i][j];
         }
