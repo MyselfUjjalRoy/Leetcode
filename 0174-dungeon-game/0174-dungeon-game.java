@@ -1,35 +1,36 @@
 class Solution {
-
-    // pura recursion + memoization ka code chipkaya haii
-    // kyuki jab bottom se top recursion wala code likhte hai tab pura easyy ho jata haiiiiiii , hurray
+    int m , n;
+    int[][] dp;
     public int calculateMinimumHP(int[][] dungeon) {
-        int m = dungeon.length;
-        int n = dungeon[0].length;
+        m = dungeon.length;
+        n = dungeon[0].length;
 
-        int[][] t = new int[m + 1][n + 1];
-        // t[i][j] -> minimum health required to reach dungeon[m - 1][n - 1] from dungeon[i][j]
-
-        for(int i = m - 1; i >= 0; i--){
-            for(int j = n - 1; j >= 0; j--){
-                if(i == m - 1 && j == n - 1){
-                    if(dungeon[i][j] > 0){
-                        t[i][j] = 1;
-                    }
-                    else{
-                        t[i][j] = Math.abs(dungeon[i][j]) + 1;
-                    }
-                }
-                else{
-                    int right = (j + 1 >= n) ? Integer.MAX_VALUE : t[i][j + 1];
-                    int down = (i + 1 >= m)  ? Integer.MAX_VALUE : t[i + 1][j];
-
-                    int res = Math.min(right , down) - dungeon[i][j];
-
-                    t[i][j] = (res > 0) ? res : 1;
-                }
-            }
+        dp = new int[201][201];
+        for(int i = 0; i < 201; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return t[0][0];
+        return solve(0 , 0 , dungeon);
+    }
+
+    public int solve(int i , int j , int[][] dungeon){
+        if(i >= m || j >= n){
+            return Integer.MAX_VALUE;
+        }
+
+        if(dp[i][j] != -1){
+            return dp[i][j];
+        }
+
+        if(i == m - 1 && j == n - 1){
+            return dp[i][j] = dungeon[i][j] > 0 ? 1 : Math.abs(dungeon[i][j]) + 1;
+        }
+
+        int down = solve(i + 1 , j , dungeon);
+        int right = solve(i , j + 1 , dungeon);
+
+        int res = Math.min(down , right) - dungeon[i][j];
+
+        return dp[i][j] = res > 0 ? res : 1;
     }
 }
