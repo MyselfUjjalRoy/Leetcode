@@ -1,22 +1,21 @@
 class Solution {
-    int[] dp;
     public int rob(int[] nums) {
         int n = nums.length;
-        dp = new int[n];
-        Arrays.fill(dp , -1);
 
-        return solve(n - 1 , nums);
-    }
-
-    public int solve(int i , int[] nums){
-        if(i < 0) return 0;
+        if(n == 1) return nums[0];
         
-        if(dp[i] != -1) return dp[i];
+        int[] dp = new int[n];
+        // dp[i]=Maximum amount of money the robber can steal from the first i+1 houses.
 
-        
-        int steal = nums[i] + solve(i - 2 , nums);
-        int skip = solve(i - 1 , nums);
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
 
-        return dp[i] = Math.max(steal , skip);
+        for (int i = 2; i < n; i++) {
+            int steal = nums[i] + dp[i - 2];
+            int skip = dp[i - 1];
+            dp[i] = Math.max(steal, skip);
+        }
+
+        return dp[n - 1];
     }
 }
