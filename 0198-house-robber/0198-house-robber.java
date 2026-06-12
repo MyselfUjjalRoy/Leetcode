@@ -1,21 +1,18 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
-
-        if(n == 1) return nums[0];
         
-        int[] dp = new int[n];
-        // dp[i]=Maximum amount of money the robber can steal from the first i+1 houses.
+        if (n == 1) return nums[0];
 
-        dp[0] = nums[0];
-        dp[1] = Math.max(nums[0], nums[1]);
+        int prev2 = nums[0];
+        int prev1 = Math.max(nums[0], nums[1]);
 
         for (int i = 2; i < n; i++) {
-            int steal = nums[i] + dp[i - 2];
-            int skip = dp[i - 1];
-            dp[i] = Math.max(steal, skip);
+            int curr = Math.max(prev1, nums[i] + prev2);
+            prev2 = prev1;
+            prev1 = curr;
         }
 
-        return dp[n - 1];
+        return prev1;
     }
 }
