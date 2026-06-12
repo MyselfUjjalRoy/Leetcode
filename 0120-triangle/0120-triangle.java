@@ -1,25 +1,22 @@
 class Solution {
-    /*  recursion + memoization code gave tle
-        so bottom Up approach 
-        t[i][j] -> min path sum from triangle[i][j] to bottom
-        //Approach-3 : Bottom Up - Just like "Minimum Falling Path Sum"
-        //T.C : O(n^2)
-        //S.C : O(n)
-    */
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
 
-        int[] t = new int[n];
-        for(int i = 0; i < n; i++){
-            t[i] = triangle.get(n - 1).get(i);
+        int[][] dp = new int[n][n];
+
+        for(int j = 0; j < n; j++){
+            dp[n - 1][j] = triangle.get(n - 1).get(j);
         }
 
-        for(int i = n - 2;  i >= 0; i--){
+        for(int i = n - 2; i >= 0; i--){
             for(int j = 0; j <= i; j++){
-                t[j] = triangle.get(i).get(j) + Math.min(t[j] , t[j + 1]);
+                int down = dp[i + 1][j];
+                int downRight = dp[i + 1][j + 1];
+
+                dp[i][j] = triangle.get(i).get(j) + Math.min(down , downRight);
             }
         }
 
-        return t[0];
+        return dp[0][0];
     }
 }
