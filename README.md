@@ -108,6 +108,7 @@ Leetcode solutions
 | [0396-rotate-function](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0403-frog-jump](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0403-frog-jump/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0485-max-consecutive-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0493-reverse-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
 | [0494-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0496-next-greater-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0496-next-greater-element-i/) | Easy |
