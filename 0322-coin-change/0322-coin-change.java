@@ -1,30 +1,35 @@
 class Solution {
+    int[][] dp;
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        int[] prev = new int[amount + 1];
 
-        for(int t = 0; t <= amount; t++){
-            if((t % coins[0]) == 0){
-                prev[t] = t / coins[0];
-            }
-            else{
-                prev[t] = (int)1e9;
-            }
+        dp = new int[n][amount + 1];
+
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        for(int i = 1; i < n; i++){
-            int[] curr = new int[amount + 1];
-            for(int t = 0; t <= amount; t++){
-                int notTake = prev[t];
+        int ans = solve(n - 1 , amount , coins);
 
-                int take = (int)1e9;
-                if(coins[i] <= t) take = 1 + curr[t - coins[i]];
+        return ans == (int)1e9 ? -1 : ans;
+    }
 
-                curr[t] = Math.min(take , notTake);
-            }
-            prev = curr.clone();
+    public int solve(int idx , int amount , int[] coins){
+        if(idx == 0){
+            if(amount % coins[0] == 0) return amount / coins[0];
+            else return (int)1e9;
         }
 
-        return prev[amount] == (int)1e9 ? -1 : prev[amount];
+        if(dp[idx][amount] != -1){
+            return dp[idx][amount];
+        }
+
+        int skip = solve(idx - 1 , amount , coins);
+        int take = (int)1e9; // as we need to find minimum coins
+        if(coins[idx] <= amount){
+            take = 1 + solve(idx , amount - coins[idx] , coins); // Note : idx - 1 nahi karenge , infinite supply
+        }
+
+        return dp[idx][amount] = Math.min(take , skip);
     }
 }
