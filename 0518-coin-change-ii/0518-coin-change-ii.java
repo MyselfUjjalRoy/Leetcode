@@ -1,31 +1,32 @@
 class Solution {
+    int[][] dp;
     public int change(int amount, int[] coins) {
         int n = coins.length;
-        
-        int[] prev = new int[amount + 1];
+        dp = new int[n][amount + 1];
 
-        for(int t = 0; t <= amount; t++){
-            if((t % coins[0]) == 0){
-                prev[t] = 1;
-            }
-            else{
-                prev[t] = 0;
-            }
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        for(int i = 1; i < n; i++){
-            int[] curr = new int[amount + 1];
-            for(int t = 0; t <= amount; t++){
-                int skip = prev[t];
-                int take = 0;
-                if(coins[i] <= t){
-                    take = curr[t - coins[i]];
-                }
-                curr[t] = take + skip;
-            }
-            prev = curr.clone();
+        return solve(n - 1 , amount , coins);
+    }
+
+    public int solve(int idx , int amount , int[] coins){
+        if(idx == 0){
+            if(amount % coins[0] == 0) return 1;
+            else return 0;
         }
 
-        return prev[amount];
+        if(dp[idx][amount] != -1){
+            return dp[idx][amount];
+        }
+
+        int skip = solve(idx - 1 , amount , coins);
+        int take = 0;
+        if(coins[idx] <= amount){
+            take = solve(idx , amount - coins[idx] , coins);
+        }
+
+        return dp[idx][amount] = take + skip;
     }
 }
