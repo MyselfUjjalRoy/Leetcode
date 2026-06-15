@@ -7,14 +7,14 @@ class Solution {
             total += num;
         }
 
-        if((total - diff) % 2 != 0  || (total - diff) < 0) return 0;
+        if((total + diff) % 2 != 0  || (total + diff) < 0) return 0;
 
-        dp = new int[n][((total - diff) / 2) + 1];
+        dp = new int[n][((total + diff) / 2) + 1];
         for(int i = 0; i < n; i++){
             Arrays.fill(dp[i] , -1);
         }
 
-        return solve(n - 1 , (total - diff) / 2 , nums);
+        return solve(n - 1 , (total + diff) / 2 , nums);
     }
 
     public int solve(int idx , int target , int[] nums){
