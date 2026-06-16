@@ -1,15 +1,15 @@
 class Solution {
     public int minInsertions(String s) {
         int n = s.length();
+        
+        int[][] dp = new int[n][n];
 
-        int[][] dp = new int[n + 1][n + 1];
-
-        for(int length = 1; length <= n; length++){
-            for(int i = 0; i + length - 1 < n; i++){
-                int j = i + length - 1;
+        for(int len = 1; len <= n; len++){
+            for(int i = 0; i + len - 1 < n; i++){
+                int j = i + len - 1;
 
                 if(i == j){
-                    dp[i][j] = 0; // means no chars i need to insert
+                    dp[i][j] = 0;
                 }
                 else if(s.charAt(i) == s.charAt(j)){
                     dp[i][j] = dp[i + 1][j - 1];
