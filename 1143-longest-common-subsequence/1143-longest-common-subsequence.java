@@ -1,26 +1,31 @@
 class Solution {
+    int m , n;
+    int[][] dp;
     public int longestCommonSubsequence(String s1, String s2) {
-        int m = s1.length();
-        int n = s2.length();
+        m = s1.length();
+        n = s2.length();
 
-        int[] prev = new int[n + 1];
-
-        for(int i = 1; i <= m; i++){
-
-            int[] curr = new int[n + 1];
-
-            for(int j = 1; j <= n; j++){
-                if(s1.charAt(i - 1) == s2.charAt(j - 1)){
-                    curr[j] = 1 + prev[j - 1];
-                }
-                else{
-                    curr[j] = Math.max(prev[j] , curr[j - 1]);
-                }
-            }
-
-            prev = curr;
+        dp = new int[m + 1][n + 1];
+        for(int i = 0; i < m + 1; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return prev[n];
+        return solve(m , n , s1 , s2);
+    }
+
+    public int solve(int m , int n , String s1 , String s2){
+        if(m < 1 || n < 1){
+            return 0;
+        }
+
+        if(dp[m][n] != -1){
+            return dp[m][n];
+        }
+
+        if(s1.charAt(m - 1) == s2.charAt(n - 1)){
+            return dp[m][n] = 1 + solve(m - 1 , n - 1 , s1 , s2);
+        }
+
+        return dp[m][n] = Math.max(solve(m - 1 , n , s1 , s2) , solve(m , n - 1 , s1 , s2));
     }
 }
