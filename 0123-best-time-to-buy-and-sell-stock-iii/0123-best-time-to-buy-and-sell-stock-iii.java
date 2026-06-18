@@ -1,36 +1,37 @@
 class Solution {
-    int n;
-    int[][][] dp;
     public int maxProfit(int[] prices) {
-        n = prices.length;
+        int n = prices.length;
+        int[][][] dp = new int[n + 1][2][3];
 
-        dp = new int[n + 1][2][3];
-        for(int i = 0; i < n; i++){
-            for(int j = 0; j <= 1; j++){
-                Arrays.fill(dp[i][j] , -1);
+        for(int i = 0; i < n + 1; i++){ // base case 2 -> capacity == 0
+            for(int option = 0; option <= 1; option++){
+                dp[i][option][0] = 0;
             }
         }
 
-        return solve(0 , 1 , 2 , prices);
-    }
-
-    public int solve(int idx , int option , int capacity , int[] prices){
-        if(idx == n) return 0;
-        if(capacity == 0) return 0;
-
-        if(dp[idx][option][capacity] != -1){
-            return dp[idx][option][capacity];
+        for(int option = 0; option <= 1; option++){ // base case 1 -> idx == n
+            for(int capacity = 0; capacity <= 2; capacity++){
+                dp[n][option][capacity] = 0;
+            }
         }
 
-        int profit = 0;
+        for(int idx = n - 1; idx >= 0; idx--){
+            for(int option = 0; option <= 1; option++){
+                for(int capacity = 1; capacity <= 2; capacity++){
+                    int profit = 0;
 
-        if(option == 1){
-            profit = Math.max(-prices[idx] + solve(idx + 1 , 0 , capacity , prices) , 0 + solve(idx + 1 , 1 , capacity , prices));
-        }
-        else{
-            profit = Math.max(prices[idx] + solve(idx + 1 , 1 , capacity - 1 , prices) , 0 + solve(idx + 1 , 0 , capacity , prices));
+                    if(option == 1){
+                        profit = Math.max(-prices[idx] + dp[idx + 1][0][capacity] , 0 + dp[idx + 1][1][capacity]);
+                    }
+                    else{
+                        profit = Math.max(prices[idx] + dp[idx + 1][1][capacity - 1] , 0 + dp[idx + 1][0][capacity]);
+                    }
+
+                    dp[idx][option][capacity] = profit;
+                }
+            }
         }
 
-        return dp[idx][option][capacity] = profit;
+        return dp[0][1][2];
     }
 }
