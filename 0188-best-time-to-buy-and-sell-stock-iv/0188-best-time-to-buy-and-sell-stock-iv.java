@@ -1,36 +1,37 @@
 class Solution {
-    int n;
-    int[][][] dp;
     public int maxProfit(int k, int[] prices) {
-        n = prices.length;
-        dp = new int[n + 1][2][k + 1];
+        int n = prices.length;
+        int[][][] dp = new int[n + 1][3][k + 1];
 
         for(int i = 0; i < n + 1; i++){
-            for(int opt = 0; opt < 2; opt++){
-                Arrays.fill(dp[i][opt] , -1);
+            for(int option = 0; option <= 2; option++){
+                dp[i][option][0] = 0;
             }
         }
 
-        return solve(0 , 1 , k , prices);
-    }
-
-    public int solve(int idx , int option , int k , int[] prices){
-        if(idx == n) return 0;
-        if(k == 0) return 0;
-
-        if(dp[idx][option][k] != -1){
-            return dp[idx][option][k];
+        for(int option = 0; option <= 2; option++){
+            for(int capacity = 0; capacity < k + 1; capacity++){
+                dp[n][option][capacity] = 0;
+            }
         }
 
-        int profit = 0;
+        for(int idx = n - 1; idx >= 0; idx--){
+            for(int option = 0; option <= 1; option++){
+                for(int capacity = 1; capacity <= k; capacity++){
+                    int profit = 0;
 
-        if(option == 1){
-            profit = Math.max(-prices[idx] + solve(idx + 1 , 0 , k , prices) , 0 + solve(idx + 1 , 1 , k , prices));
-        }
-        else{
-            profit = Math.max(prices[idx] + solve(idx + 1 , 1 , k - 1 , prices) , 0 + solve(idx + 1 , 0 , k , prices));
+                    if(option == 1){
+                        profit = Math.max(-prices[idx] + dp[idx + 1][0][capacity] , 0 + dp[idx + 1][1][capacity]);
+                    }
+                    else{
+                        profit = Math.max(prices[idx] + dp[idx + 1][1][capacity - 1] , 0 + dp[idx + 1][0][capacity]);
+                    }
+
+                    dp[idx][option][capacity] = profit;
+                }
+            }
         }
 
-        return dp[idx][option][k] = profit;
+        return dp[0][1][k];
     }
 }
