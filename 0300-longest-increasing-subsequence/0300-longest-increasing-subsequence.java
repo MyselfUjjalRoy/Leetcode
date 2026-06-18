@@ -1,35 +1,38 @@
 class Solution {
+    int n;
+    int[][] dp;
     public int lengthOfLIS(int[] nums) {
-        ArrayList<Integer> list = new ArrayList<>();
-        for(int num : nums){
-            int idx = lowerBound(num , list);
-            if(idx == -1){
-                list.add(num);
-            }
-            else{
-                list.set(idx , num);
-            }
+        n = nums.length;
+        dp = new int[n + 1][n + 1];
+
+        for(int i = 0; i < n + 1; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return list.size();
+        return solve(-1 , 0 , nums); // [prevIdx , currIdx , nums]
     }
 
-    public int lowerBound(int num , ArrayList<Integer> list){
-        int low = 0 , high = list.size() - 1;
-        int ans = -1;
+    public int solve(int prevIdx , int currIdx , int[] nums){
+        if(currIdx >= n) return 0;
 
-        while(low <= high){
-            int mid = low + (high - low) / 2;
-
-            if(list.get(mid) >= num){
-                ans = mid;
-                high = mid - 1;
-            }
-            else{
-                low = mid + 1;
+        if(prevIdx != -1){
+            if(dp[prevIdx][currIdx] != -1){
+                return dp[prevIdx][currIdx];
             }
         }
 
-        return ans;
+        int take = 0;
+
+        if(prevIdx == -1 || nums[prevIdx] < nums[currIdx]){
+            take = 1 + solve(currIdx , currIdx + 1 , nums);
+        }
+
+        int skip = solve(prevIdx , currIdx + 1 , nums);
+
+        if(prevIdx != -1){
+            dp[prevIdx][currIdx] = Math.max(take , skip);
+        }
+
+        return Math.max(take , skip);
     }
 }
