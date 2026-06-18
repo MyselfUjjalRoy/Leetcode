@@ -72,6 +72,7 @@ Leetcode solutions
 | [0040-combination-sum-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
 | [0042-trapping-rain-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0048-rotate-image](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0048-rotate-image/) | Medium |
+| [0051-n-queens](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0053-maximum-subarray](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0056-merge-intervals](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0056-merge-intervals/) | Medium |
 | [0063-unique-paths-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0063-unique-paths-ii/) | Medium |
@@ -634,6 +635,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
+| [0051-n-queens](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0090-subsets-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0257-binary-tree-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0257-binary-tree-paths/) | Easy |
