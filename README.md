@@ -170,6 +170,7 @@ Leetcode solutions
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
 | [1755-closest-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1755-closest-subsequence-sum/) | Hard |
 | [1848-minimum-distance-to-the-target-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
@@ -658,6 +659,7 @@ Leetcode solutions
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
+| [1732-find-the-highest-altitude](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1871-jump-game-vii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
