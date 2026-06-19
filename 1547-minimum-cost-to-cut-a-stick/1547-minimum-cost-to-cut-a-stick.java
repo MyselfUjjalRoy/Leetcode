@@ -1,41 +1,38 @@
 class Solution {
-    // codestory with mik
     int[][] dp;
-
-    public int solve(int left , int right , int[] cuts){
-        if((right - left) == 1){
-            return 0;
-        }
-
-        if(dp[left][right] != -1){
-            return dp[left][right];
-        }
-
-        int ans = Integer.MAX_VALUE;
-        for(int idx = left + 1; idx < right; idx++){
-            int cost = (cuts[right] - cuts[left]) + solve(left , idx , cuts) + solve(idx , right , cuts);
-            ans = Math.min(ans , cost);
-        }
-
-        return dp[left][right] = ans;
-    }
     public int minCost(int n, int[] cuts) {
-        int m = cuts.length;
-        int[] newCuts = new int[m + 2];
+        int len = cuts.length;
+        int[] newCuts = new int[len + 2];
         newCuts[0] = 0;
-        newCuts[m + 1] = n;
-
-        for(int i = 0; i < m; i++){
-            newCuts[i] = cuts[i];
+        for(int i = 1; i < len + 1; i++){
+            newCuts[i] = cuts[i - 1];
         }
+        newCuts[len + 1] = n;
 
         Arrays.sort(newCuts);
 
-        dp = new int[m + 2][m + 2];
-        for(int i = 0; i < m + 2; i++){
+        dp = new int[len + 1][len + 1];
+        for(int i = 0; i < len + 1; i++){
             Arrays.fill(dp[i] , -1);
         }
 
-        return solve(0 , m + 1 , newCuts);
+        return solve(1 , len , newCuts);
+    }
+
+    public int solve(int i , int j , int[] newCuts){
+        if(i > j) return 0;
+
+        if(dp[i][j] != -1){
+            return dp[i][j];
+        }
+        
+        int mini = Integer.MAX_VALUE;
+        for(int k = i; k <= j; k++){
+            int cost = newCuts[j + 1] - newCuts[i - 1] + solve(i , k - 1 , newCuts) + solve(k + 1 , j , newCuts);
+
+            mini = Math.min(mini , cost);
+        }
+
+        return dp[i][j] = mini;
     }
 }
