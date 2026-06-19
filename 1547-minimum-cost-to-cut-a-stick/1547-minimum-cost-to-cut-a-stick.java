@@ -1,4 +1,4 @@
-class Solution {
+class Solution { // Striver 
     int[][] dp;
     public int minCost(int n, int[] cuts) {
         int len = cuts.length;
