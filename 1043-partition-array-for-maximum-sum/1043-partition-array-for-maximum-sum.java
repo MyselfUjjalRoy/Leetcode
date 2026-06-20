@@ -1,31 +1,33 @@
 class Solution {
-    // front partition
-    // striver
-
-    // bottom up
-
+    int n;
+    int[] dp;
     public int maxSumAfterPartitioning(int[] arr, int k) {
-        int n = arr.length;
-        int[] dp = new int[n + 1];
+        n = arr.length;
+        dp = new int[n];
         // dp[i] -> give me the max sum if we have the array starting from i
+        Arrays.fill(dp , -1);
 
-        for (int idx = n - 1; idx >= 0; idx--) {
-            int len = 0;
-            int maxElement = Integer.MIN_VALUE;
-            int sum = Integer.MIN_VALUE;
-
-            for (int j = idx; j < Math.min(idx + k, n); j++) {
-                len++;
-                maxElement = Math.max(maxElement, arr[j]);
-
-                int currSum = (maxElement * len) + dp[j + 1];
-
-                sum = Math.max(sum, currSum);
-            }
-
-            dp[idx] = sum;
+        return solve(0 , k , arr);
+    }
+    public int solve(int idx , int k , int[] arr){
+        if(idx == n){
+            return 0;
         }
 
-        return dp[0];
+        if(dp[idx] != -1){
+            return dp[idx];
+        }
+
+        int maxElement = Integer.MIN_VALUE;
+        int len = 0;
+        int ans = Integer.MIN_VALUE;
+
+        for(int i = idx; i < Math.min(n , idx + k); i++){
+            len++;
+            maxElement = Math.max(maxElement , arr[i]);
+            ans = Math.max(ans , len * maxElement + solve(i + 1 , k , arr));
+        }
+
+        return dp[idx] = ans;
     }
 }
