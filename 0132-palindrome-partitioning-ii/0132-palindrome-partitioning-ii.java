@@ -44,9 +44,9 @@ class Solution {
     public int minCut(String s){
         int n = s.length();
 
-        if(n == 0 || n == 1){
-            return 0;
-        }
+        // if(n == 0 || n == 1){
+        //     return 0;
+        // }
 
         return solve(s);
     }
