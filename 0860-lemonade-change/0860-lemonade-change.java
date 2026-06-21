@@ -2,6 +2,7 @@ class Solution {
     public boolean lemonadeChange(int[] bills) {
         int five = 0;
         int ten = 0;
+
         for(int bill : bills){
             if(bill == 5){
                 five++;
@@ -12,13 +13,13 @@ class Solution {
                     ten++;
                 }
                 else{
-                     return false;
+                    return false;
                 }
             }
-            else{//when bill == 20
-                if(ten > 0 && five > 0){
-                    ten--;
+            else{
+                if(five > 0 && ten > 0){
                     five--;
+                    ten--;
                 }
                 else if(five >= 3){
                     five -= 3;
@@ -28,6 +29,7 @@ class Solution {
                 }
             }
         }
+
         return true;
     }
 }
