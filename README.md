@@ -119,6 +119,7 @@ Leetcode solutions
 | [0396-rotate-function](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0403-frog-jump](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0403-frog-jump/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0493-reverse-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
@@ -287,6 +288,7 @@ Leetcode solutions
 | [0396-rotate-function](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0403-frog-jump](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0403-frog-jump/) | Hard |
 | [0416-partition-equal-subset-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0416-partition-equal-subset-sum/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0494-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0494-target-sum/) | Medium |
 | [0509-fibonacci-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0509-fibonacci-number/) | Easy |
 | [0516-longest-palindromic-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0516-longest-palindromic-subsequence/) | Medium |
@@ -758,6 +760,7 @@ Leetcode solutions
 | [0055-jump-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0402-remove-k-digits](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0402-remove-k-digits/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0646-maximum-length-of-pair-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -867,6 +870,7 @@ Leetcode solutions
 | [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0368-largest-divisible-subset/) | Medium |
+| [0435-non-overlapping-intervals](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0646-maximum-length-of-pair-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0646-maximum-length-of-pair-chain/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
