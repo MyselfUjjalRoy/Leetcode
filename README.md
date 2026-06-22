@@ -71,6 +71,7 @@ Leetcode solutions
 | [0018-4sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0018-4sum/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0033-search-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0035-search-insert-position](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0039-combination-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
 | [0042-trapping-rain-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
@@ -727,6 +728,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0033-search-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
+| [0035-search-insert-position](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0035-search-insert-position/) | Easy |
 | [0074-search-a-2d-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
