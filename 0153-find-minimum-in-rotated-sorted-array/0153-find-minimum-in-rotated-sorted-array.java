@@ -1,19 +1,23 @@
 class Solution {
     public int findMin(int[] nums) {
-        int left = 0;
-        int right = nums.length - 1;
+        int low = 0; 
+        int high = nums.length - 1;
 
-        while(left < right){ // if I use <= then infinite loop
-            int mid = left + (right - left) / 2;
+        int mini = nums[0];
 
-            if(nums[mid] > nums[right]){ // that means mid cannot be the answer
-                left = mid + 1;    
+        while(low <= high){
+            int mid = low + (high - low) / 2;
+
+            mini = Math.min(mini , nums[mid]);
+
+            if(nums[mid] > nums[high]){
+                low = mid + 1;
             }
-            else{ // as it is <= so i just simply can't do right = mid - 1 , mid can also be the answer
-                right = mid;
+            else{
+                high = mid - 1;
             }
         }
 
-        return nums[left];
+        return mini;
     }
 }
