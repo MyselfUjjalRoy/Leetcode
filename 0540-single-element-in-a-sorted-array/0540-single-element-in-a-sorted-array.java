@@ -8,8 +8,8 @@ class Solution {
         else if (nums[nums.length - 1] != nums[nums.length - 2])
             return nums[nums.length - 1];
 
-        int start = 0;
-        int end = nums.length - 1;
+        int start = 1;
+        int end = nums.length - 2;
 
         while (start <= end) {
             int mid = (start + end) / 2;
