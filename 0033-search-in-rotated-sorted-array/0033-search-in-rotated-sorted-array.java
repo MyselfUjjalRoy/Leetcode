@@ -8,16 +8,16 @@ class Solution {
 
             if(nums[mid] == target) return mid;
 
-            if(nums[low] <= nums[mid]){
-                if(nums[low] <= target && target < nums[mid]){
+            if(nums[low] <= nums[mid]){ // means left side sorted
+                if(nums[low] <= target && target < nums[mid]){ // mid already checked
                     high = mid - 1;
                 }
                 else{
                     low = mid + 1;
                 }
             }
-            else{
-                if(nums[mid] < target && target <= nums[high]){
+            else{ // right part sorted
+                if(nums[mid] < target && target <= nums[high]){ // mid already checked
                     low = mid + 1;
                 }
                 else{
