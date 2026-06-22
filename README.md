@@ -99,6 +99,7 @@ Leetcode solutions
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
+| [0135-candy](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0135-candy/) | Hard |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
@@ -761,6 +762,7 @@ Leetcode solutions
 | [0045-jump-game-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+| [0135-candy](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0135-candy/) | Hard |
 | [0402-remove-k-digits](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0402-remove-k-digits/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0455-assign-cookies/) | Easy |
