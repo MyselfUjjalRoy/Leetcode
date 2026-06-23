@@ -1,28 +1,35 @@
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
-        int minDivisor = 1;
-        int maxDivisor = -1;
+        int low = 1;
+        int high = 1;
         for(int num : nums){
-            maxDivisor = Math.max(maxDivisor , num);
+            high = Math.max(high , num);
         }
 
-        while(minDivisor < maxDivisor){
-            int mid = minDivisor + (maxDivisor - minDivisor) / 2;
-            
-            if(canMaintainThreshold(nums , mid , threshold)){
-                maxDivisor = mid;
+        int ans = 1;
+
+        while(low <= high){
+            int mid = low + (high - low) / 2;
+
+            if(isValid(mid , threshold , nums)){
+                ans = mid;
+                high = mid - 1;
             }
             else{
-                minDivisor = mid + 1;
+                low = mid + 1;
             }
         }
-        return minDivisor;
+
+        return ans;
     }
-    public boolean canMaintainThreshold(int[] nums , int divisor , int threshold){
-        int divisorSum = 0;
+
+    public boolean isValid(int divisor , int threshold , int[] nums){
+        int sum = 0;
+
         for(int num : nums){
-            divisorSum += Math.ceil(num*1.0 / divisor);
+            sum = sum + (num + divisor - 1) / divisor;
         }
-        return divisorSum <= threshold;
+
+        return sum <= threshold;
     }
 }
