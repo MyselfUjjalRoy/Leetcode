@@ -151,6 +151,7 @@ Leetcode solutions
 | [0845-longest-mountain-in-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0845-longest-mountain-in-array/) | Medium |
 | [0860-lemonade-change](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0860-lemonade-change/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0875-koko-eating-bananas](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0879-profitable-schemes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0879-profitable-schemes/) | Hard |
 | [0907-sum-of-subarray-minimums](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0909-snakes-and-ladders](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0909-snakes-and-ladders/) | Medium |
@@ -747,6 +748,7 @@ Leetcode solutions
 | [0731-my-calendar-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0731-my-calendar-ii/) | Medium |
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
+| [0875-koko-eating-bananas](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1187-make-array-strictly-increasing](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1187-make-array-strictly-increasing/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
