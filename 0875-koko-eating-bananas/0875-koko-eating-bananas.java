@@ -1,26 +1,35 @@
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         int minSpeed = 1;
-        int maxSpeed = Integer.MIN_VALUE;
+        int maxSpeed = 0;
         for(int pile : piles){
             maxSpeed = Math.max(maxSpeed , pile);
         }
+
+        int ans = maxSpeed;
+
         while(minSpeed <= maxSpeed){
             int mid = minSpeed + (maxSpeed - minSpeed) / 2;
-            if(canEatAll(piles, mid , h)){
-                maxSpeed = mid-1;
+
+            if(canEat(mid , h , piles)){
+                ans = mid;
+                maxSpeed = mid - 1;
             }
             else{
                 minSpeed = mid + 1;
             }
         }
-        return minSpeed;
+
+        return ans;
     }
-    public boolean canEatAll(int[] piles , int speed , int h){
-        int hours = 0;
+
+    public boolean canEat(int speed , int limit , int[] piles){
+        long time = 0;
+
         for(int pile : piles){
-            hours += Math.ceil((pile * 1.0) / speed);
+            time = time + (pile + speed - 1) / speed;
         }
-        return hours <= h;
+
+        return time <= limit;
     }
 }
