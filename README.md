@@ -258,6 +258,7 @@ Leetcode solutions
 | [3660-jump-game-ix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3660-jump-game-ix/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
@@ -660,6 +661,7 @@ Leetcode solutions
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
@@ -707,6 +709,7 @@ Leetcode solutions
 | [3546-equal-sum-grid-partition-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -893,6 +896,7 @@ Leetcode solutions
 | [3161-block-placement-queries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3161-block-placement-queries/) | Hard |
 | [3479-fruits-into-baskets-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3479-fruits-into-baskets-iii/) | Medium |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1161,6 +1165,7 @@ Leetcode solutions
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Bitmask
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1207,6 +1212,7 @@ Leetcode solutions
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0493-reverse-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1224,6 +1230,7 @@ Leetcode solutions
 | [1189-maximum-number-of-balloons](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1189-maximum-number-of-balloons/) | Easy |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
+| [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
