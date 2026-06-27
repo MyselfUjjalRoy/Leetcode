@@ -204,6 +204,7 @@ Leetcode solutions
 | [1861-rotating-the-box](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [1901-find-a-peak-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
@@ -451,6 +452,7 @@ Leetcode solutions
 | [1861-rotating-the-box](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1861-rotating-the-box/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
+| [1901-find-a-peak-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -778,6 +780,7 @@ Leetcode solutions
 | [1539-kth-missing-positive-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
+| [1901-find-a-peak-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2540-minimum-common-value](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
