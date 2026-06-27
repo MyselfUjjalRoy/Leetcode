@@ -3,32 +3,16 @@ class Solution {
         int m = matrix.length;
         int n = matrix[0].length;
 
-        for(int i = 0; i < m; i++){
-            boolean flag = binarySearch(matrix[i] , target);
+        int i = 0; 
+        int j = n - 1;
 
-            if(flag) return true;
-        }
-
-        return false;
-    }
-
-    public boolean binarySearch(int[] arr , int target){
-        int low = 0; 
-        int high = arr.length - 1;
-
-        int ans = -1;
-
-        while(low <= high){
-            int mid = low + (high - low) / 2;
-
-            if(arr[mid] == target){
-                return true;
-            }
-            else if(arr[mid] > target){
-                high = mid - 1;
+        while(i < m && j >= 0){
+            if(matrix[i][j] == target) return true;
+            else if(matrix[i][j] > target){
+                j--;
             }
             else{
-                low = mid + 1;
+                i++;
             }
         }
 
