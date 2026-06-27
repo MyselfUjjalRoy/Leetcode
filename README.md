@@ -114,6 +114,7 @@ Leetcode solutions
 | [0213-house-robber-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
 | [0229-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0229-majority-element-ii/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0240-search-a-2d-matrix-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
@@ -431,6 +432,7 @@ Leetcode solutions
 | [0130-surrounded-regions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0130-surrounded-regions/) | Medium |
 | [0174-dungeon-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0174-dungeon-game/) | Hard |
 | [0200-number-of-islands](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0240-search-a-2d-matrix-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0542-01-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0733-flood-fill/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -756,6 +758,7 @@ Leetcode solutions
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
 | [0162-find-peak-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0162-find-peak-element/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
+| [0240-search-a-2d-matrix-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0410-split-array-largest-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0410-split-array-largest-sum/) | Hard |
@@ -1162,6 +1165,7 @@ Leetcode solutions
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
+| [0240-search-a-2d-matrix-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0307-range-sum-query-mutable](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0307-range-sum-query-mutable/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0493-reverse-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0493-reverse-pairs/) | Hard |
