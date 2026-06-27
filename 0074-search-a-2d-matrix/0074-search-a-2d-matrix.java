@@ -1,23 +1,34 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-         int m = matrix.length;
+        int m = matrix.length;
         int n = matrix[0].length;
 
-        int low = 0, high = m * n - 1;
+        for(int i = 0; i < m; i++){
+            boolean flag = binarySearch(matrix[i] , target);
 
-        while (low <= high) {
+            if(flag) return true;
+        }
+
+        return false;
+    }
+
+    public boolean binarySearch(int[] arr , int target){
+        int low = 0; 
+        int high = arr.length - 1;
+
+        int ans = -1;
+
+        while(low <= high){
             int mid = low + (high - low) / 2;
 
-            // Convert mid to 2D indices
-            int row = mid / n;
-            int col = mid % n;
-
-            if (matrix[row][col] == target) {
+            if(arr[mid] == target){
                 return true;
-            } else if (matrix[row][col] < target) {
-                low = mid + 1;
-            } else {
+            }
+            else if(arr[mid] > target){
                 high = mid - 1;
+            }
+            else{
+                low = mid + 1;
             }
         }
 
