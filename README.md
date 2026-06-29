@@ -8,6 +8,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0013-roman-to-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0013-roman-to-integer/) | Easy |
 | [0020-valid-parentheses](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
@@ -618,6 +619,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0001-two-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0013-roman-to-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0013-roman-to-integer/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0076-minimum-window-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0076-minimum-window-substring/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
@@ -853,6 +855,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0007-reverse-integer/) | Medium |
+| [0013-roman-to-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0013-roman-to-integer/) | Easy |
 | [0048-rotate-image](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0050-powx-n/) | Medium |
 | [0060-permutation-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0060-permutation-sequence/) | Hard |
