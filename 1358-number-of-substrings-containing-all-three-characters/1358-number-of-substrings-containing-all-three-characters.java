@@ -3,7 +3,6 @@ class Solution {
         int n = s.length();
 
         int[] count = new int[3];
-       // Arrays.fill(lastSeen , -1);
         int ans = 0;
         int left = 0;
 
