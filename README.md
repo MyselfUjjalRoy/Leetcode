@@ -32,6 +32,7 @@ Leetcode solutions
 | [0647-palindromic-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0686-repeated-string-match](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0686-repeated-string-match/) | Medium |
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0796-rotate-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0796-rotate-string/) | Easy |
 | [0839-similar-string-groups](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0839-similar-string-groups/) | Hard |
@@ -1141,6 +1142,7 @@ Leetcode solutions
 ## String Matching
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0686-repeated-string-match](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0686-repeated-string-match/) | Medium |
 | [0796-rotate-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0796-rotate-string/) | Easy |
 | [3474-lexicographically-smallest-generated-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Stack
