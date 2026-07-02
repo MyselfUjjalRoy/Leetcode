@@ -12,6 +12,7 @@ Leetcode solutions
 | [0014-longest-common-prefix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0020-valid-parentheses/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0038-count-and-say](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0038-count-and-say/) | Medium |
 | [0044-wildcard-matching](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0072-edit-distance/) | Medium |
 | [0076-minimum-window-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0076-minimum-window-substring/) | Hard |
