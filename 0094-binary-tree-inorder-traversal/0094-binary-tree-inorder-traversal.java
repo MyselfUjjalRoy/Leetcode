@@ -13,20 +13,39 @@
  *     }
  * }
  */
-class Solution {
+class Solution { // Morris Traversal inorder
     public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer>res=new ArrayList<>();
-        Stack<TreeNode>stack=new Stack<>();
-        TreeNode node=root;
-        while(node!=null || !stack.isEmpty()){
-            while(node!=null){
-                stack.push(node);
-                node=node.left;
+        List<Integer> list = new ArrayList<>();
+        TreeNode curr = root;
+
+        while(curr != null){
+            //case 1 : no left subtree
+            if(curr.left == null){
+                list.add(curr.val);
+                curr = curr.right;
             }
-            node=stack.pop();
-            res.add(node.val);
-            node=node.right;
+            else{
+                TreeNode prev = curr.left;
+
+                // find inorder predecessor
+                while(prev.right != null && prev.right != curr){
+                    prev = prev.right;
+                }
+
+                // create thread
+                if(prev.right == null){
+                    prev.right = curr;
+                    curr = curr.left;
+                }
+                // thread already exists
+                else{
+                    prev.right = null;
+                    list.add(curr.val);
+                    curr = curr.right;
+                }
+            }
         }
-        return res;
+
+        return list;
     }
 }
