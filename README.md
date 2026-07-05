@@ -186,6 +186,7 @@ Leetcode solutions
 | [1248-count-number-of-nice-subarrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1283-find-the-smallest-divisor-given-a-threshold/) | Medium |
+| [1301-number-of-paths-with-max-score](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1306-jump-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1340-jump-game-v](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1340-jump-game-v/) | Hard |
@@ -348,6 +349,7 @@ Leetcode solutions
 | [1187-make-array-strictly-increasing](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1187-make-array-strictly-increasing/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
+| [1301-number-of-paths-with-max-score](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
@@ -462,6 +464,7 @@ Leetcode solutions
 | [1020-number-of-enclaves](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1020-number-of-enclaves/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1277-count-square-submatrices-with-all-ones/) | Medium |
+| [1301-number-of-paths-with-max-score](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1559-detect-cycles-in-2d-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
