@@ -105,6 +105,7 @@ Leetcode solutions
 | [0090-subsets-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0118-pascals-triangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0118-pascals-triangle/) | Easy |
 | [0120-triangle](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0120-triangle/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -1032,6 +1033,7 @@ Leetcode solutions
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -1075,6 +1077,7 @@ Leetcode solutions
 | [0104-maximum-depth-of-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0110-balanced-binary-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0110-balanced-binary-tree/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0124-binary-tree-maximum-path-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
@@ -1233,6 +1236,7 @@ Leetcode solutions
 | [0053-maximum-subarray](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0106-construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0148-sort-list](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0169-majority-element](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0169-majority-element/) | Easy |
 | [0240-search-a-2d-matrix-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
@@ -1362,6 +1366,7 @@ Leetcode solutions
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0099-recover-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0099-recover-binary-search-tree/) | Medium |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0173-binary-search-tree-iterator](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0235-lowest-common-ancestor-of-a-binary-search-tree/) | Medium |
