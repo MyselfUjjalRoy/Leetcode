@@ -1,13 +1,30 @@
 class Solution {
-    public long maxAlternatingSum(int[] nums) {
-        int n = nums.length;
-        long[][] dp = new long[n + 1][2]; // 1 based indexing mei change kar liya
+    long[][] dp;
+    int n;
+    public long solve(int idx , int[] nums , boolean flag){
+        if(idx >= n) return 0;
 
-        for(int i = 1; i < n + 1; i++){
-            dp[i][0] = Math.max(dp[i - 1][1] - nums[i - 1] , dp[i - 1][0]);
-            dp[i][1] = Math.max(dp[i - 1][0] + nums[i - 1] , dp[i - 1][1]);
+        int f = flag ? 1 : 0;
+        if(dp[idx][f] != -1) return dp[idx][f];
+
+        long skip = solve(idx + 1 , nums , flag);
+        
+        int val = nums[idx];
+
+        if(!flag) val = -val;
+
+        long take = val + solve(idx + 1 , nums , !flag);
+
+        return dp[idx][f] = Math.max(take ,skip);
+    }
+    public long maxAlternatingSum(int[] nums) {
+        n = nums.length;
+
+        dp = new long[n + 1][2]; // 1 based indexing mei change kar liya
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return Math.max(dp[n][0] , dp[n][1]);
+        return solve(0 , nums , true);
     }
 }
