@@ -3,7 +3,6 @@ class Solution {
         int n = s.length();
 
         boolean[][] dp = new boolean[n + 1][n + 1];
-
         int count = 0;
 
         for(int length = 1; length <= n; length++){
@@ -17,12 +16,10 @@ class Solution {
                     dp[i][j] = s.charAt(i) == s.charAt(j);
                 }
                 else{
-                    dp[i][j] = (s.charAt(i) == s.charAt(j)) && (dp[i + 1][j - 1] == true); 
+                    dp[i][j] = (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]);
                 }
 
-                if(dp[i][j] == true){
-                    count++;
-                }
+                if(dp[i][j]) count++;
             }
         }
 
