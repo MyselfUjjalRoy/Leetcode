@@ -1,34 +1,33 @@
 class Solution {
+    int n;
+    int[][] dp;
     public int lengthOfLIS(int[] nums) {
-        ArrayList<Integer> list = new ArrayList<>();
-        for(int num : nums){
-            int idx = lowerBound(num , list);
-            if(idx == list.size()){
-                list.add(num);
-            }
-            else{
-                list.set(idx , num);
-            }
+        n = nums.length;
+        dp = new int[n][n];
+
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return list.size();
+        return solve(-1 , 0 , nums);
     }
 
-    public int lowerBound(int num , ArrayList<Integer> list){
-        int low = 0;
-        int high = list.size() - 1;
-        int ans = list.size();
+    public int solve(int prevIdx , int currIdx , int[] nums){
+        if(currIdx >= n) return 0;
 
-        while(low <= high){
-            int mid = low + (high - low) / 2;
+        if(prevIdx != -1 && dp[prevIdx][currIdx] != -1) return dp[prevIdx][currIdx];
 
-            if(list.get(mid) >= num){
-                ans = mid;
-                high = mid - 1;
-            }
-            else{
-                low = mid + 1;
-            }
+        int skip = solve(prevIdx , currIdx + 1 , nums);
+        
+        int take = 0;
+        if(prevIdx == -1 || nums[prevIdx] < nums[currIdx]){
+            take = 1 + solve(currIdx , currIdx + 1 , nums);
+        }
+
+        int ans = Math.max(take , skip);
+
+        if(prevIdx != -1){
+            dp[prevIdx][currIdx] = ans;
         }
 
         return ans;
