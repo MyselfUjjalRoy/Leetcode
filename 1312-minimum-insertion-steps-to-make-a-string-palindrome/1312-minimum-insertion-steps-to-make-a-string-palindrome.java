@@ -1,12 +1,12 @@
 class Solution {
     public int minInsertions(String s) {
         int n = s.length();
-        
-        int[][] dp = new int[n][n];
 
-        for(int len = 1; len <= n; len++){
-            for(int i = 0; i + len - 1 < n; i++){
-                int j = i + len - 1;
+        int[][] dp = new int[n + 1][n + 1];
+
+        for(int length = 1; length <= n; length++){
+            for(int i = 0; i + length - 1 < n; i++){
+                int j = i + length - 1;
 
                 if(i == j){
                     dp[i][j] = 1;
