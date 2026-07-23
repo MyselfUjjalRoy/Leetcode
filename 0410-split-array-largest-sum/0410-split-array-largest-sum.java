@@ -1,5 +1,6 @@
 class Solution {
     public int splitArray(int[] nums, int k) {
+        if(k > nums.length) return -1;
         int low = 0;
         int high = 0;
         for(int num : nums){
@@ -12,7 +13,7 @@ class Solution {
         while(low <= high){
             int mid = low + (high - low) / 2;
 
-            if(canSplit(mid , k , nums)){
+            if(isPossible(nums , k , mid)){
                 ans = mid;
                 high = mid - 1;
             }
@@ -24,7 +25,7 @@ class Solution {
         return ans;
     }
 
-    public boolean canSplit(int maxSum , int k , int[] nums){
+    public boolean isPossible(int[] nums , int k , int maxSum){
         int split = 1;
         int currSum = 0;
 
@@ -34,6 +35,7 @@ class Solution {
                 split++;
                 currSum = num;
             }
+
             if(split > k){
                 return false;
             }
