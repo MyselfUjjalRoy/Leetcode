@@ -10,6 +10,7 @@ class Solution {
             for(int idx = l; idx <= r; idx++){
                 farthest = Math.max(farthest , idx + nums[idx]);
             }
+
             l = r + 1;
             r = farthest;
             jumps++;
