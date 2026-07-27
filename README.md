@@ -205,6 +205,7 @@ Leetcode solutions
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1463-cherry-pickup-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1463-cherry-pickup-ii/) | Hard |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
@@ -913,6 +914,7 @@ Leetcode solutions
 | [0778-swim-in-rising-water](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1094-car-pooling](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1094-car-pooling/) | Medium |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
@@ -1031,6 +1033,7 @@ Leetcode solutions
 | [1331-rank-transform-of-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1340-jump-game-v](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1547-minimum-cost-to-cut-a-stick/) | Hard |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
