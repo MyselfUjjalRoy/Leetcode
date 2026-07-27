@@ -1,19 +1,27 @@
 class Solution {
     public int numSubarraysWithSum(int[] nums, int goal) {
+        return countLessOrEqual(nums , goal) - countLessOrEqual(nums , goal - 1);
+    }
+    public int countLessOrEqual(int[] nums , int target){
+        if(target < 0) return 0;
+
         int n = nums.length;
+        int left = 0;
+        int right = 0;
 
-        Map<Integer , Integer> map = new HashMap<>();
-        map.put(0 , 1);
-
-        int prefixSum = 0;
         int count = 0;
+        int sum = 0;
 
-        for(int right = 0; right < n; right++){
-            prefixSum += nums[right];
+        while(right < n){
+            sum += nums[right];
 
-            count += map.getOrDefault(prefixSum - goal , 0);
+            while(sum > target){
+                sum -= nums[left];
+                left++;
+            }
 
-            map.put(prefixSum , map.getOrDefault(prefixSum , 0) + 1);
+            count += right - left + 1;
+            right++;
         }
 
         return count;
