@@ -11,6 +11,7 @@ class Solution {
             prefixSum += (nums[right] % 2 == 1) ? 1 : 0;
 
             count += map.getOrDefault(prefixSum - k , 0);
+
             map.put(prefixSum , map.getOrDefault(prefixSum , 0) + 1);
         }
 
