@@ -3,13 +3,12 @@ class Solution {
         int n = nums.length;
 
         int left = 0;
-        int maxLen = 0;
-
         int zeroCount = 0;
+        int maxLen = 0;
 
         for(int right = 0; right < n; right++){
             if(nums[right] == 0) zeroCount++;
-
+            
             while(zeroCount > k){
                 if(nums[left] == 0){
                     zeroCount--;
