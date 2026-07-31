@@ -1482,4 +1482,5 @@ Leetcode solutions
 | ------- | ------- |
 | [0595-big-countries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0595-big-countries/) | Easy |
 | [1148-article-views-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1148-article-views-i/) | Easy |
+| [1683-invalid-tweets](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1683-invalid-tweets/) | Easy |
 <!---LeetCode Topics End-->
