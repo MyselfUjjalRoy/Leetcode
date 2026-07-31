@@ -1477,4 +1477,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3517-smallest-palindromic-rearrangement-i/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0595-big-countries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0595-big-countries/) | Easy |
 <!---LeetCode Topics End-->
