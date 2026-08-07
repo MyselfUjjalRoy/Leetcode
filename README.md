@@ -1497,6 +1497,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0197-rising-temperature](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0197-rising-temperature/) | Easy |
+| [0577-employee-bonus](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0577-employee-bonus/) | Easy |
 | [0595-big-countries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0595-big-countries/) | Easy |
 | [1148-article-views-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1148-article-views-i/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
