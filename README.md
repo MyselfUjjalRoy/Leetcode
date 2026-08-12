@@ -269,6 +269,7 @@ Leetcode solutions
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3043-find-the-length-of-the-longest-common-prefix/) | Medium |
@@ -677,6 +678,7 @@ Leetcode solutions
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1871-jump-game-vii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -731,6 +733,7 @@ Leetcode solutions
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2958-length-of-longest-subarray-with-at-most-k-frequency/) | Medium |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2996-smallest-missing-integer-greater-than-sequential-prefix-sum/) | Easy |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3020-find-the-maximum-number-of-elements-in-subset/) | Medium |
