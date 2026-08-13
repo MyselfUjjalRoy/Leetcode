@@ -58,6 +58,7 @@ Leetcode solutions
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -250,6 +251,7 @@ Leetcode solutions
 | [2161-partition-array-according-to-given-pivot](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2196-create-binary-tree-from-descriptions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -1023,6 +1025,7 @@ Leetcode solutions
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2926-maximum-balanced-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2926-maximum-balanced-subsequence-sum/) | Hard |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 | [3161-block-placement-queries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3161-block-placement-queries/) | Hard |
@@ -1358,6 +1361,7 @@ Leetcode solutions
 | [0732-my-calendar-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0732-my-calendar-iii/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [3479-fruits-into-baskets-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3479-fruits-into-baskets-iii/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
