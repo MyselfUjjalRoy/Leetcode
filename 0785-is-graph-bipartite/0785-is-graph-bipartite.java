@@ -19,14 +19,14 @@ class Solution {
         color[node] = clr;
 
         for(int nei : graph[node]){
-           if(color[nei] == -1){
+            if(color[nei] == -1){
                 if(dfs(nei , 1 - clr , color , graph) == false){
                     return false;
                 }
-           }
-           else if(color[nei] == clr){
+            }
+            else if(color[nei] == clr){
                 return false;
-           }
+            }
         }
 
         return true;
