@@ -10,26 +10,21 @@ class Solution {
 
         for(int j = 0; j < n; j++){
             if(board[0][j] == 'O') dfs(m , n , 0 , j , board);
-            if(board[m - 1][j] == 'O') dfs(m , n , m - 1, j , board);
+            if(board[m - 1][j] == 'O') dfs(m , n , m - 1 , j , board);
         }
 
         for(int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
-                if(board[i][j] == 'O'){
-                    board[i][j] = 'X';
-                }
-                else if(board[i][j] == '#'){
-                    board[i][j] = 'O';
-                }
+                if(board[i][j] == 'O') board[i][j] = 'X';
+                else if(board[i][j] == '#') board[i][j] = 'O';
             }
         }
     }
 
     int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
-
     public void dfs(int m , int n , int r , int c , char[][] board){
         if(r < 0 || c < 0 || r >= m || c >= n || board[r][c] != 'O') return;
-        
+
         board[r][c] = '#';
 
         for(int d = 0; d < 4; d++){
