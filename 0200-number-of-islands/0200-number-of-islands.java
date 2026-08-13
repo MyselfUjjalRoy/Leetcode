@@ -17,13 +17,11 @@ class Solution {
 
         return islands;
     }
-    
+
     int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
 
     public void dfs(int r , int c , char[][] grid){
-        if(r < 0 || c < 0 || r >= m || c >= n || grid[r][c] != '1'){
-            return;
-        }
+        if(r < 0 || c < 0 || r >= m || c >= n || grid[r][c] != '1') return;
 
         grid[r][c] = '2';
 
