@@ -3,40 +3,42 @@ class Solution {
         int rows = heights.length;
         int cols = heights[0].length;
 
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> a[0] - b[0]);
-        pq.offer(new int[]{0 , 0 , 0}); // [effort , row , col]
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a , b) -> Integer.compare(a[0] , b[0]));
+        pq.offer(new int[]{0 , 0 , 0});
 
         int[][] effort = new int[rows][cols];
         for(int i = 0; i < rows; i++){
             Arrays.fill(effort[i] , Integer.MAX_VALUE);
         }
+        
         effort[0][0] = 0;
 
         int[] dir = {-1 , 0 , 1 , 0 , 0 , -1 , 0 , 1};
+
         while(!pq.isEmpty()){
             int[] curr = pq.poll();
             int currEffort = curr[0];
-            int row = curr[1];
-            int col = curr[2];
+            int r = curr[1];
+            int c = curr[2];
 
-            if(row == rows - 1 && col == cols - 1) return currEffort;
+            if(r == rows - 1 && c == cols - 1) return currEffort;
 
             for(int d = 0; d < 4; d++){
-                int nRow = row + dir[2 * d];
-                int nCol = col + dir[2 * d + 1];
+                int nR = r + dir[2 * d];
+                int nC = c + dir[2 * d + 1];
 
-                if(nRow >= 0 && nCol >= 0 && nRow < rows && nCol < cols){
-                    int diff = Math.abs(heights[row][col] - heights[nRow][nCol]);
+                if(nR >= 0 && nC >= 0 && nR < rows && nC < cols){
+                    int diff = Math.abs(heights[r][c] - heights[nR][nC]);
                     int newEffort = Math.max(currEffort , diff);
 
-                    if(newEffort < effort[nRow][nCol]){
-                        effort[nRow][nCol] = newEffort;
-                        pq.offer(new int[]{newEffort , nRow , nCol});
+                    if(newEffort < effort[nR][nC]){
+                        effort[nR][nC] = newEffort;
+                        pq.offer(new int[]{newEffort , nR , nC});
                     }
                 }
             }
         }
 
-        return 0; // will never reach here;
+        return -1; // unreachable
     }
 }
