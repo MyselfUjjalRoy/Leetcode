@@ -1559,4 +1559,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0785-is-graph-bipartite](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0785-is-graph-bipartite/) | Medium |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 <!---LeetCode Topics End-->
