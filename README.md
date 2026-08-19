@@ -209,6 +209,7 @@ Leetcode solutions
 | [1335-minimum-difficulty-of-a-job-schedule](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1335-minimum-difficulty-of-a-job-schedule/) | Hard |
 | [1340-jump-game-v](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1340-jump-game-v/) | Hard |
 | [1345-jump-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
+| [1386-cinema-seat-allocation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1406-stone-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
@@ -730,6 +731,7 @@ Leetcode solutions
 | [1331-rank-transform-of-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1345-jump-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1943-describe-the-painting](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1943-describe-the-painting/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -830,6 +832,7 @@ Leetcode solutions
 | [0995-minimum-number-of-k-consecutive-bit-flips](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0995-minimum-number-of-k-consecutive-bit-flips/) | Hard |
 | [1009-complement-of-base-10-integer](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [1239-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1239-maximum-length-of-a-concatenated-string-with-unique-characters/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1755-closest-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1755-closest-subsequence-sum/) | Hard |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -913,6 +916,7 @@ Leetcode solutions
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0860-lemonade-change](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0860-lemonade-change/) | Easy |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
+| [1386-cinema-seat-allocation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1402-reducing-dishes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1402-reducing-dishes/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
