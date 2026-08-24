@@ -237,6 +237,7 @@ Leetcode solutions
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1861-rotating-the-box/) | Medium |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1886-determine-whether-matrix-can-be-obtained-by-rotation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1886-determine-whether-matrix-can-be-obtained-by-rotation/) | Easy |
 | [1901-find-a-peak-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1901-find-a-peak-element-ii/) | Medium |
@@ -406,6 +407,7 @@ Leetcode solutions
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1755-closest-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1755-closest-subsequence-sum/) | Hard |
 | [1871-jump-game-vii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
@@ -798,6 +800,7 @@ Leetcode solutions
 | [1732-find-the-highest-altitude](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
 | [1871-jump-game-vii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1943-describe-the-painting](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1943-describe-the-painting/) | Medium |
 | [2574-left-and-right-sum-differences](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2574-left-and-right-sum-differences/) | Easy |
@@ -990,6 +993,7 @@ Leetcode solutions
 | [1563-stone-game-v](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1563-stone-game-v/) | Hard |
 | [1622-fancy-sequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1622-fancy-sequence/) | Hard |
 | [1840-maximum-building-height](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1840-maximum-building-height/) | Hard |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1927-sum-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1927-sum-game/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
@@ -1552,17 +1556,20 @@ Leetcode solutions
 | [1406-stone-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
 | [1510-stone-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
 | [1563-stone-game-v](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1563-stone-game-v/) | Hard |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 | [1927-sum-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1927-sum-game/) | Medium |
 ## Minimax
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1406-stone-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
 | [1510-stone-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 ## Zero-Sum Game
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1406-stone-game-iii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1406-stone-game-iii/) | Hard |
 | [1510-stone-game-iv](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1510-stone-game-iv/) | Hard |
+| [1872-stone-game-viii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1872-stone-game-viii/) | Hard |
 ## Nim Game
 | Problem Name | Difficulty |
 | ------- | ------- |
