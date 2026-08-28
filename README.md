@@ -82,6 +82,7 @@ Leetcode solutions
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3518-smallest-palindromic-rearrangement-ii/) | Hard |
 | [3612-process-string-with-special-operations-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 | [3614-process-string-with-special-operations-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 | [3838-weighted-word-mapping](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
 ## Array
 | Problem Name | Difficulty |
@@ -1258,6 +1259,7 @@ Leetcode solutions
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 ## Eulerian Circuit
 | Problem Name | Difficulty |
@@ -1274,6 +1276,7 @@ Leetcode solutions
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
