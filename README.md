@@ -252,6 +252,7 @@ Leetcode solutions
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2104-sum-of-subarray-ranges](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2104-sum-of-subarray-ranges/) | Medium |
 | [2126-destroying-asteroids](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
@@ -932,6 +933,7 @@ Leetcode solutions
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1846-maximum-element-after-decreasing-and-rearranging/) | Medium |
 | [1927-sum-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1927-sum-game/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2126-destroying-asteroids](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2573-find-the-string-with-lcp/) | Hard |
