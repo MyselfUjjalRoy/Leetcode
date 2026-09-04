@@ -328,6 +328,7 @@ Leetcode solutions
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3876-construct-uniform-parity-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
+| [3903-smallest-stable-index-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -822,6 +823,7 @@ Leetcode solutions
 | [3721-longest-balanced-subarray-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3721-longest-balanced-subarray-ii/) | Hard |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3739-count-subarrays-with-majority-element-ii/) | Hard |
+| [3903-smallest-stable-index-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
