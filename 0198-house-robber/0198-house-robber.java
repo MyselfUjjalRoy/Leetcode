@@ -1,23 +1,21 @@
 class Solution {
+    int[] dp;
     public int rob(int[] nums) {
         int n = nums.length;
-        if(n == 1) return nums[0];
+        dp = new int[n];
+        Arrays.fill(dp , -1);
 
-        int[] dp = new int[n];
+        return solve(n - 1 , nums);
+    }
 
-        int prev2 = nums[0];
-        int prev1 = Math.max(nums[0] , nums[1]);
-        int curr = 0;
+    public int solve(int i , int[] nums){
+        if(i < 0) return 0;
 
-        for(int i = 2; i < n; i++){
-            int steal = nums[i] + prev2;
-            int skip = prev1;
-            curr = Math.max(steal , skip);
+        if(dp[i] != -1) return dp[i];
 
-            prev2 = prev1;
-            prev1 = curr;
-        }
+        int steal = nums[i] + solve(i - 2 , nums);
+        int skip = solve(i - 1 , nums);
 
-        return prev1;
+        return dp[i] = Math.max(steal , skip);
     }
 }
