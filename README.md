@@ -40,6 +40,7 @@ Leetcode solutions
 | [0721-accounts-merge](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0721-accounts-merge/) | Medium |
 | [0796-rotate-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0796-rotate-string/) | Easy |
 | [0839-similar-string-groups](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0839-similar-string-groups/) | Hard |
+| [0940-distinct-subsequences-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1061-lexicographically-smallest-equivalent-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1061-lexicographically-smallest-equivalent-string/) | Medium |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
@@ -389,6 +390,7 @@ Leetcode solutions
 | [0877-stone-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0877-stone-game/) | Medium |
 | [0879-profitable-schemes](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0879-profitable-schemes/) | Hard |
 | [0907-sum-of-subarray-minimums](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [0940-distinct-subsequences-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0940-distinct-subsequences-ii/) | Hard |
 | [1043-partition-array-for-maximum-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1043-partition-array-for-maximum-sum/) | Medium |
 | [1048-longest-string-chain](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1048-longest-string-chain/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1092-shortest-common-supersequence/) | Hard |
