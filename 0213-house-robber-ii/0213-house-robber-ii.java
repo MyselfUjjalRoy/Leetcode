@@ -1,34 +1,30 @@
 class Solution {
+    int[] dp;
     public int rob(int[] nums) {
         int n = nums.length;
 
         if(n == 1) return nums[0];
-        if(n == 2) return Math.max(nums[0] , nums[1]);
 
-        int[] dp1 = new int[n - 1];
-        dp1[0] = nums[0];
-        dp1[1] = Math.max(nums[0] , nums[1]);
+        dp = new int[n];
+        Arrays.fill(dp , -1);
 
-        for(int i = 2; i < n - 1; i++){
-            int steal = nums[i] + dp1[i - 2];
-            int skip = dp1[i - 1];
-            dp1[i] = Math.max(steal , skip);
-        }
+        int case1 = solve(0 , n - 2 , nums);
 
-        int case1 = dp1[n - 2];
+        Arrays.fill(dp , -1);
 
-        int[] dp2 = new int[n];
-        dp2[1] = nums[1];
-        dp2[2] = Math.max(nums[1] , nums[2]);
-
-        for(int i = 3; i < n; i++){
-            int steal = nums[i] + dp2[i - 2];
-            int skip = dp2[i - 1];
-            dp2[i] = Math.max(steal , skip);
-        }
-
-        int case2 = dp2[ n - 1];
+        int case2 = solve(1 , n - 1 , nums);
 
         return Math.max(case1 , case2);
+    }
+
+    public int solve(int idx , int n , int[] nums){
+        if(idx > n) return 0;
+
+        if(dp[idx] != -1) return dp[idx];
+
+        int steal = nums[idx] + solve(idx + 2 , n , nums);
+        int skip = solve(idx + 1 , n , nums);
+
+        return dp[idx] = Math.max(steal , skip);
     }
 }
