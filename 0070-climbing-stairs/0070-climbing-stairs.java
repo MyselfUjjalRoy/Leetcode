@@ -1,7 +1,5 @@
-class Solution {
-    int[] dp;
-    public int climbStairs(int n) {
-        dp = new int[n + 1];
+class Solution { 
+    public int climbStairs(int n) {    
         if(n <= 1) return n;
         int a = 1;
         int b = 2;
