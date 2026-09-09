@@ -1618,4 +1618,8 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
+## Manacher
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0005-longest-palindromic-substring](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0005-longest-palindromic-substring/) | Medium |
 <!---LeetCode Topics End-->
