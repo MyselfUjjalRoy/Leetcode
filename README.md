@@ -1567,6 +1567,7 @@ Leetcode solutions
 | [0595-big-countries](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0595-big-countries/) | Easy |
 | [1148-article-views-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1148-article-views-i/) | Easy |
 | [1280-students-and-examinations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1280-students-and-examinations/) | Easy |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1378-replace-employee-id-with-the-unique-identifier/) | Easy |
 | [1581-customer-who-visited-but-did-not-make-any-transactions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1581-customer-who-visited-but-did-not-make-any-transactions/) | Easy |
 | [1661-average-time-of-process-per-machine](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1661-average-time-of-process-per-machine/) | Easy |
 | [1683-invalid-tweets](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1683-invalid-tweets/) | Easy |
