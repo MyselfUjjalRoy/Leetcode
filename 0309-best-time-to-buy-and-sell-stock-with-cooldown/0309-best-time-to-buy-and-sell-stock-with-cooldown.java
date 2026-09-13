@@ -1,24 +1,30 @@
 class Solution {
+    int n;
+    int[][] dp;
     public int maxProfit(int[] prices) {
-        int n = prices.length;
-        int[] prev1 = new int[2];
-        int[] prev2 = new int[2];
-
-        for(int idx = n - 1; idx >= 0; idx--){
-            int[] curr = new int[2];
-            for(int option = 0; option <= 1; option++){
-                if(option == 1){
-                    curr[option] = Math.max(-prices[idx] + prev1[0] , 0 + prev1[1]);
-                }
-                else{
-                    curr[option] = Math.max(prices[idx] + prev2[1] , 0 + prev1[0]);
-                }
-            }
-            
-            prev2 = prev1;
-            prev1 = curr;
+        n = prices.length;
+        dp = new int[n][2];
+        for(int i = 0; i < n; i++){
+            Arrays.fill(dp[i] , -1);
         }
 
-        return prev1[1];
+        return solve(0 , 1 , prices);
+    }
+
+    public int solve(int idx , int option , int[] prices){
+        if(idx >= n) return 0;
+
+        if(dp[idx][option] != -1) return dp[idx][option];
+
+        int profit = 0;
+
+        if(option == 1){
+            profit = Math.max(-prices[idx] + solve(idx + 1 , 0 , prices) , solve(idx + 1 , 1 , prices));
+        }
+        else{
+            profit = Math.max(prices[idx] + solve(idx + 2 , 1 , prices) , solve(idx + 1 , 0 , prices));
+        }
+
+        return dp[idx][option] = profit;
     }
 }
