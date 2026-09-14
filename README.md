@@ -1003,6 +1003,7 @@ Leetcode solutions
 | [0509-fibonacci-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0509-fibonacci-number/) | Easy |
 | [0628-maximum-product-of-three-numbers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0788-rotated-digits/) | Medium |
+| [0836-rectangle-overlap](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0836-rectangle-overlap/) | Easy |
 | [0877-stone-game](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0877-stone-game/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
@@ -1474,6 +1475,7 @@ Leetcode solutions
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0836-rectangle-overlap](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/0836-rectangle-overlap/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 ## Linked List
 | Problem Name | Difficulty |
