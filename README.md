@@ -231,6 +231,7 @@ Leetcode solutions
 | [1563-stone-game-v](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1563-stone-game-v/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1697-checking-existence-of-edge-length-limited-paths](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1697-checking-existence-of-edge-length-limited-paths/) | Hard |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -710,6 +711,7 @@ Leetcode solutions
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1871-jump-game-vii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2904-shortest-and-lexicographically-smallest-beautiful-string/) | Medium |
@@ -762,6 +764,7 @@ Leetcode solutions
 | [1386-cinema-seat-allocation](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum/) | Medium |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1520-maximum-number-of-non-overlapping-substrings/) | Hard |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1943-describe-the-painting](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1943-describe-the-painting/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -824,6 +827,7 @@ Leetcode solutions
 | [1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1420-build-array-where-you-can-find-the-maximum-exactly-k-comparisons/) | Hard |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1423-maximum-points-you-can-obtain-from-cards/) | Medium |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1621-number-of-sets-of-k-non-overlapping-line-segments/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1854-maximum-population-year](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1854-maximum-population-year/) | Easy |
@@ -915,6 +919,7 @@ Leetcode solutions
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1482-minimum-number-of-days-to-make-m-bouquets/) | Medium |
 | [1539-kth-missing-positive-number](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
+| [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1658-minimum-operations-to-reduce-x-to-zero/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1901-find-a-peak-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
