@@ -267,6 +267,7 @@ Leetcode solutions
 | [2179-count-good-triplets-in-an-array](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2179-count-good-triplets-in-an-array/) | Hard |
 | [2196-create-binary-tree-from-descriptions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -433,6 +434,7 @@ Leetcode solutions
 | [1911-maximum-alternating-subsequence-sum](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1911-maximum-alternating-subsequence-sum/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2463-minimum-total-distance-traveled](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2472-maximum-number-of-non-overlapping-palindrome-substrings/) | Hard |
@@ -551,6 +553,7 @@ Leetcode solutions
 | [1901-find-a-peak-element-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1901-find-a-peak-element-ii/) | Medium |
 | [1914-cyclically-rotating-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1914-cyclically-rotating-a-grid/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 | [2290-minimum-obstacle-removal-to-reach-corner](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2290-minimum-obstacle-removal-to-reach-corner/) | Hard |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2328-number-of-increasing-paths-in-a-grid/) | Hard |
 | [2392-build-a-matrix-with-conditions](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2392-build-a-matrix-with-conditions/) | Hard |
@@ -1669,4 +1672,5 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+| [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/2267-check-if-there-is-a-valid-parentheses-string-path/) | Hard |
 <!---LeetCode Topics End-->
