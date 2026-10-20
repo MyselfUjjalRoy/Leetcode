@@ -347,6 +347,7 @@ Leetcode solutions
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3876-construct-uniform-parity-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3903-smallest-stable-index-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3904-smallest-stable-index-ii/) | Medium |
 ## Dynamic Programming
@@ -1092,6 +1093,7 @@ Leetcode solutions
 | [3870-count-commas-in-range](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3870-count-commas-in-range/) | Easy |
 | [3875-construct-uniform-parity-array-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3876-construct-uniform-parity-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1193,6 +1195,7 @@ Leetcode solutions
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3731-find-missing-elements](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3731-find-missing-elements/) | Easy |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -1354,6 +1357,7 @@ Leetcode solutions
 | [3548-equal-sum-grid-partition-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+| [3886-sum-of-sortable-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
