@@ -92,6 +92,7 @@ Leetcode solutions
 | [3614-process-string-with-special-operations-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3734-lexicographically-smallest-palindromic-permutation-greater-than-target/) | Hard |
 | [3838-weighted-word-mapping](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3838-weighted-word-mapping/) | Easy |
+| [3863-minimum-operations-to-sort-a-string](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3863-minimum-operations-to-sort-a-string/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
