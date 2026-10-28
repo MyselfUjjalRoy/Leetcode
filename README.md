@@ -350,6 +350,7 @@ Leetcode solutions
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3876-construct-uniform-parity-array-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 | [3886-sum-of-sortable-integers](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3886-sum-of-sortable-integers/) | Hard |
 | [3903-smallest-stable-index-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3904-smallest-stable-index-ii/) | Medium |
@@ -470,6 +471,7 @@ Leetcode solutions
 | [3742-maximum-path-score-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -588,6 +590,7 @@ Leetcode solutions
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 | [3643-flip-square-submatrix-vertically](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 | [3742-maximum-path-score-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -909,6 +912,7 @@ Leetcode solutions
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3514-number-of-unique-xor-triplets-ii/) | Medium |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/MyselfUjjalRoy/Leetcode/tree/main/3882-minimum-xor-path-in-a-grid/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
